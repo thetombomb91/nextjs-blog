@@ -14,10 +14,6 @@ export default function PostLayout({ children }) {
       <Head>
         <link rel="icon" href="/bombFavicon.ico" />
         <meta
-          name="description"
-          content="Learn how to build a personal website using Next.js"
-        />
-        <meta
           property="og:image"
           content={`https://og-image.now.sh/${encodeURI(
             siteTitle
