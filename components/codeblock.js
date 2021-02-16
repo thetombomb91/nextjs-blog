@@ -21,15 +21,19 @@ const CodeBlock = ({ language, value }) => {
      >
        {value}
      </SyntaxHighlighter> }*/
-     <span>
-    <div className="w-screen flex align-center justify-center">
-      <div className="sm:w-3/5 w-11/12 bg-white flex justify-center align-center m-12">
-        <Highlight className="" language={language}>
+    //  <span>
+    /* <div className="w-screen flex align-center justify-center">
+      <div className="sm:w-3/5 w-11/12 bg-white flex justify-center align-center m-12"> */
+    <div className="w-full flex align-center justify-center">
+      <div className="w-full bg-white flex justify-center align-center m-2">
+        <Highlight language={language}>
           {value}
         </Highlight>
       </div>
     </div>
-    </span>
+    /* </div>
+  </div>
+  </span> */
   )
 }
 
