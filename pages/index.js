@@ -62,7 +62,7 @@ export default function Home({ topPosts, hobbyPosts }) {
               <h1 className="sm:text-3xl text-xl font-medium title-font text-gray-900 mb-4">
                 📝Cool Blog Posts:
               </h1>
-              <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">
+              <p className="text-base leading-relaxed lg:w-3/4 mx-auto text-gray-500s">
                 I like to write Tech articles so that others can learn from it.
                 It really enjoy when I am writing these articles.
               </p>
@@ -127,9 +127,16 @@ export default function Home({ topPosts, hobbyPosts }) {
                 </div>
               </div>
             </section>
+          </section>
+          <section className="bg--200 rounded-xl	 shadow-xl p-6 lex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
 
             <h2 className="text-white text-2xl pt-8">
-              ⛺ Hobby Posts (Mostly Camping):
+              <div className="text-center mb-10">
+                <h1 className="sm:text-3xl text-xl font-medium title-font text-white mb-4">
+                  ⛺ Hobby Posts (Mostly Camping):
+              </h1>
+              </div>
+
             </h2>
             <ul className="p-5">
               {hobbyPosts?.map(({ id, date, title }) => (

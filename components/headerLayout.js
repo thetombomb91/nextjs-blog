@@ -22,13 +22,13 @@ export default function HeaderLayout({}) {
                 href="/"
                 className="mr-5 text-white hover:text-gray-900 no-underline"
               >
-                Home
+                🏡 Home
               </a>{" "}
               <a
                 href="/posts/bio"
                 className="mr-5 ml-5 text-white hover:text-gray-900 no-underline"
               >
-                Twitter
+                🧔 Bio
               </a>
             </nav>
           </div>
