@@ -116,6 +116,31 @@ module.exports = {
           destination: '/posts/programming-with-the-happy-path',
           permanent: true,
         },
+        {
+          source: '/2016/11/13/saturday-11132016-bike-ride',
+          destination: '/posts/saturday-motorcycle-ride',
+          permanent: true,
+        },
+        {
+          source: '/2020/01/07/speaking-at-agile-devops-west-2020-conference',
+          destination: '/posts/speaking-at-agile-devops-2020',
+          permanent: true,
+        },
+        {
+          source: '/2019/01/16/space-explorer-alexa-skill',
+          destination: '/posts/space-explorer-alexa-skill',
+          permanent: true,
+        },
+        {
+          source: '/2020/09/09/stubbing-location-reload-in-angular-for-jasmine-tests',
+          destination: '/posts/stubbing-location-reload-in-jasmine-tests',
+          permanent: true,
+        },
+        {
+          source: '/2017/03/08/the-basics-of-the-alexa-skill-intentschema',
+          destination: '/posts/alexa-skill-intent-schema',
+          permanent: true,
+        },
       ]
     },
   }
