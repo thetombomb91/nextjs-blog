@@ -106,6 +106,16 @@ module.exports = {
           destination: '/posts/palomar-mountain-snow-hiking',
           permanent: true,
         },
+        {
+          source: '/2019/10/16/pnsqc-2019-talk-complete-creating-quality-with-mob-programming',
+          destination: '/posts/pnsqc-talk-complete',
+          permanent: true,
+        },
+        {
+          source: '/2017/04/18/programming-better-and-easier-with-the-happy-path',
+          destination: '/posts/programming-with-the-happy-path',
+          permanent: true,
+        },
       ]
     },
   }
