@@ -20,7 +20,7 @@ Part two of the Winter 2016 camping trip was the Arroyo Tapiado Mud Caves in Anz
 
 **Note:** Putting _Arroyo Tapiado Mud Caves_ into Google maps and having it route you works perfectly. It even navigates you very well on the dirt road portions. Also, the trail is sandy and has some spots where high clearance vehicles are preferred. We drove out there in two F-150s and a Subaru Crosstrek with no difficulty. We saw a Honda Oddessy on the trail as well. We were very surprised by that and would not recommend that, but hey someone did it.
 
-When we made it to the Arroyo Tapiado, wash and saw our first sign of a cave we parked the truck and ran for it. We were at Bat Canyon looking to find Cool Cave. Before leaving for the trip, I loaded my GPS up with the routes of all the caves. I found the GPS download here http://ropewiki.com/Mud\_Caves\_(Arroyo\_Tapiado). Some of the caves are much easier to see than others from the main wash so having them on GPS made them easier to find, and also we were able to put a name to the canyons and caves we were exploring.
+When we made it to the Arroyo Tapiado, wash and saw our first sign of a cave we parked the truck and ran for it. We were at Bat Canyon looking to find Cool Cave. Before leaving for the trip, I loaded my GPS up with the routes of all the caves. I found the GPS download here [GPS data for cave entrances](http://ropewiki.com/Mud\_Caves\_(Arroyo\_Tapiado)). Some of the caves are much easier to see than others from the main wash so having them on GPS made them easier to find, and also we were able to put a name to the canyons and caves we were exploring.
 
 As we made our way through Bat Canyon, we quickly spotted the cool cave. When I hear the word cave what often comes to mind is a big pitch-black open space. For some reason, I think it is big opens spaces. Cool Cave is the exact opposite. It is a cave that you must basically shuffle your entire way, though. I have never been a fan of tight spaces, and this one was on the smaller side. I went back probably only 40 feet while Charlie went about 60 feet back into the cave. He did not see an end.
 
@@ -71,8 +71,7 @@ We will be going back to the mud caves again!
 
 ### **Things to bring/plan for when going to the mud caves**
 
-- GPS with routes of caves loaded onto it
-    - http://ropewiki.com/Mud\_Caves\_(Arroyo\_Tapiado)
+- [GPS data for cave entrances](http://ropewiki.com/Mud\_Caves\_(Arroyo\_Tapiado))
 - Headlamps so you have two hands to stabilize you while in caves
     - Emphasis on plural, if one light goes out you do not want to be stuck without one in the cave
 - Bandana or Neck Wrap - it gets dusty in the caves

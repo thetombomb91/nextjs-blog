@@ -91,6 +91,21 @@ module.exports = {
           destination: '/posts/microsoft-cognitive-services-emotion-api',
           permanent: true,
         },
+        {
+          source: '/2017/04/19/mob-programming-moving-from-a-multi-mob-project-to-a-single-mob-project-and-the-sense-of-accomplishment',
+          destination: '/posts/mob-programming-multi-mob-to-single-mob',
+          permanent: true,
+        },
+        {
+          source: '/2018/08/01/my-first-mobile-app-motorcycle-riding-weather',
+          destination: '/posts/my-first-mobile-app-motorcycle-weather-ride',
+          permanent: true,
+        },
+        {
+          source: '/2017/02/01/palomar-mountain-snow-hiking',
+          destination: '/posts/palomar-mountain-snow-hiking',
+          permanent: true,
+        },
       ]
     },
   }
