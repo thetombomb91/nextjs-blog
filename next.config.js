@@ -166,6 +166,41 @@ module.exports = {
           destination: '/posts/visual-studio-live-vegas-2018',
           permanent: true,
         },
+        {
+          source: '/2019/02/19/weather-ride-a-motorcycle-riding-weather-app-ui-overhaul',
+          destination: '/posts/weather-ride-app-ui-overhaul',
+          permanent: true,
+        },
+        {
+          source: '/2019/10/24/what-are-structural-directives-in-angular',
+          destination: '/posts/structural-directives-in-angular',
+          permanent: true,
+        },
+        {
+          source: '/2017/03/18/what-is-going-right-mob-programming-part-1',
+          destination: '/posts/mob-programming-benefits-part-1',
+          permanent: true,
+        },
+        {
+          source: '/2017/08/05/what-is-going-right-mob-programming-part-3',
+          destination: '/posts/mob-programming-benefits-part-3',
+          permanent: true,
+        },
+        {
+          source: '/2019/10/22/what-is-test-driven-development-tdd',
+          destination: '/posts/what-is-tdd',
+          permanent: true,
+        },
+        {
+          source: '/2019/04/12/weather-ride-hits-the-ios-app-store',
+          destination: '/posts/posts/weather-ride-on-ios',
+          permanent: true,
+        },
+        {
+          source: '/2017/05/16/what-i-am-most-excited-about-after-attending-microsoft-build-2017',
+          destination: '/posts/microsoft-build-2017',
+          permanent: true,
+        },
       ]
     },
   }
