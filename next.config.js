@@ -141,6 +141,31 @@ module.exports = {
           destination: '/posts/alexa-skill-intent-schema',
           permanent: true,
         },
+        {
+          source: '/2017/02/28/the-components-that-make-up-an-alexa-skill',
+          destination: '/posts/components-of-an-alexa-skill',
+          permanent: true,
+        },
+        {
+          source: '/2018/09/27/the-shape-of-teams-when-mob-programming',
+          destination: '/posts/shape-of-teams-mob-programming',
+          permanent: true,
+        },
+        {
+          source: '/2020/07/21/two-angular-10-projects-same-package-json-one-project-has-281-vulnerabilities-the-other-has-0',
+          destination: '/posts/2-same-angular-projects-different-errors',
+          permanent: true,
+        },
+        {
+          source: '/2020/10/08/typescript-there-are-no-integers-😱',
+          destination: '/posts/typescript-there-are-no-integers',
+          permanent: true,
+        },
+        {
+          source: '/2018/03/17/visual-studio-live-2018-las-vegas',
+          destination: '/posts/visual-studio-live-vegas-2018',
+          permanent: true,
+        },
       ]
     },
   }

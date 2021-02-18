@@ -13,7 +13,7 @@ export default function FooterLayout({ children }) {
                 </div>
                 <nav className="flex flex-wrap items-center justify-center">
                     <a
-                        href="https://github.com/thetombomb91"
+                        href="https://github.com/thomas-desmond"
                         className="mr-2 text-white hover:text-gray-900 no-underline"
                     >
                         <Image
