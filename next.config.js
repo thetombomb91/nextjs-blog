@@ -201,6 +201,11 @@ module.exports = {
           destination: '/posts/microsoft-build-2017',
           permanent: true,
         },
+        {
+          source: '/2018/05/17/make-it-work-make-it-right-make-it-fast',
+          destination: '/posts/make-it-work-right-fast',
+          permanent: true,
+        },
       ]
     },
   }
