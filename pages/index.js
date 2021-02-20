@@ -45,9 +45,9 @@ export default function Home({ topPosts, hobbyPosts }) {
                         className="w-full h-54 object-cover object-center rounded-xl shadow "
                         style={{
                           borderRadius: "50%",
-                          width: "50%",
+                          width: "100%",
                         }}
-                        src="/profile1.png"
+                        src="/profile2.png"
                         alt="Picture of Thomas Desmond"
                         id="set-image"
                       />

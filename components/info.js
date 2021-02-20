@@ -26,9 +26,9 @@ const Info = () => {
                     style={{
                       border: "2px solid white",
                       borderRadius: "50%",
-                      width: "60%",
+                      width: "100%",
                     }}
-                    src="/profile1.png"
+                    src="/profile2.png"
                     alt=""
                     id="set-image"
                   />
