@@ -21,6 +21,7 @@ export default function HomeLayout({ children }) {
         />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:creator" content="@ThomasJDesmond" />
       </Head>
       <HeaderLayout />
 
