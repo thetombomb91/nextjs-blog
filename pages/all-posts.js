@@ -37,14 +37,12 @@ export default function Home({ allPosts }) {
             </div>
 
             <ul className="rounded-xl mb-10 bg-white shadow-xl">
-              {allPosts?.map(({ id, date, title }) => (
+              {allPosts?.map(({ id, date, title, description }) => (
                 <li className="pl-10 pt-10 pr-10   pb-5" key={id}>
                   <Link href={`/posts/${id}`}>
                     <a className="text-black font-semibold underline">{title}</a>
                   </Link>
-
-                  <br />
-
+                  <p className="italic">{description}</p>
                   <Link href={`/posts/${id}`}>Read More...</Link>
                 </li>
               ))}
