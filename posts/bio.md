@@ -10,6 +10,10 @@ My name is Thomas Desmond and I am a Technical Evangelist and former Senior Soft
 
 Over the past few years, my “hobbies” have been speaking at conferences, creating technical video course content, and maintaining this blog. I was also a University Instructor for 3 years creating my own curriculum in mobile programming.
 
+Twitter: [@ThomasJDesmond](https://twitter.com/ThomasJDesmond)  
+
+LinkedIn: [Thomas-Desmond](https://www.linkedin.com/in/thomas-desmond-9074475b/)
+
 Let’s take a look at some of the work I have done.
 
 **Video Course Tutorials**
