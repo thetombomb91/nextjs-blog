@@ -5,12 +5,17 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "analyze": "cross-env ANALYZE=true next build",
+    "analyze:server": "cross-env BUNDLE_ANALYZE=server next build",
+    "analyze:browser": "cross-env BUNDLE_ANALYZE=browser next build"
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^4.0.0",
+    "@next/bundle-analyzer": "^10.0.7",
     "@tailwindcss/typography": "^0.4.0",
     "autoprefixer": "^10.2.4",
+    "cross-env": "^7.0.3",
     "date-fns": "^2.16.1",
     "gray-matter": "^4.0.2",
     "next": "^10.0.0",
