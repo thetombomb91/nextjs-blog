@@ -1,9 +1,7 @@
 import Head from "next/head";
 import HomeLayout, { siteTitle } from "../components/homeLayout";
-import utilStyles from "../styles/utils.module.css";
 import { getPostsByCategory as getAllPostsByCategory } from "../lib/posts";
 import Link from "next/link";
-import Date from "../components/date";
 
 export async function getStaticProps() {
   const allPosts = getAllPostsByCategory("all");
