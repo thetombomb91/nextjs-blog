@@ -14,7 +14,7 @@ export default function HomeLayout({ children }) {
         />
                 <meta
           property="og:image"
-          content={`https://static-test-thomas-desmond.s3-us-west-1.amazonaws.com/TomBombHeader.png`}
+          content={`https://static-test-thomas-desmond.s3-us-west-1.amazonaws.com/TomBombHeader.jpeg`}
         />
         <meta name="twitter:image" content={"/images/TomBombHeader.png"}/>
         <meta name="og:title" content={siteTitle} />
