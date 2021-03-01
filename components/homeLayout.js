@@ -14,14 +14,14 @@ export default function HomeLayout({ children }) {
         />
                 <meta
           property="og:image"
-          content={`https://static-test-thomas-desmond.s3-us-west-1.amazonaws.com/TomBombHeader.jpeg`}
+          content={`https://thetombomb-public.s3.amazonaws.com/TomBombHeader.jpeg`}
         />
         <meta name="twitter:image" content={"/images/TomBombHeader.png"}/>
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:creator" content="@ThomasJDesmond" />
       </Head>
-      <HeaderLayout />
+      <HeaderLayout />cccc
 
       <div className=" h-full bg-indigo-500  flex align-center justify-center">
         <main className="md:w-3/5 w-4/5 pt-12 flex align-center justify-between">
