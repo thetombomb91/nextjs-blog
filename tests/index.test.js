@@ -1,5 +1,4 @@
 import { render, screen } from "@testing-library/react";
-import { truncate } from "fs";
 import App from "../pages/index";
 
 describe("App", () => {
