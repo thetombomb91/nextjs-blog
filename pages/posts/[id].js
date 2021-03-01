@@ -28,6 +28,7 @@ export default function Post({ postData }) {
       <Head>
         <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.3.2/build/styles/default.min.css"></link>
         <title>{postData.title}</title>
+        {/* {postData.socialImage ? <meta property="og:image" content={postData.socialImage} /> : null} */}
         <meta name="og:title" content={postData.title} />
         <meta name="og:description" content={postData.description}></meta>
         <meta name="description" content={postData.description}></meta>
