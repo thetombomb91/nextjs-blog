@@ -1,12 +1,11 @@
 import Head from "next/head";
-import styles from "./layout.module.css";
 import HeaderLayout from "./headerLayout";
 
 export const siteTitle = "Thomas Desmond - Writer, Speaker, Content Creator";
 
 export default function HomeLayout({ children }) {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <link rel="icon" href="/bombFavicon.ico" />
         <meta
