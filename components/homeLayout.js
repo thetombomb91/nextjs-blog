@@ -12,7 +12,10 @@ export default function HomeLayout({ children }) {
           name="description"
           content="Thomas Desmond aka TheTomBomb, a personal blog for sharing learning and interests, you'll find frontend tech content, my courses, and even a few fun camping trips I have taken."
         />
-        <meta property="og:image" content={"/images/TomBombHeader.png"}/>
+                <meta
+          property="og:image"
+          content={`https://imgur.com/a/8aJpt1w`}
+        />
         <meta name="twitter:image" content={"/images/TomBombHeader.png"}/>
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
