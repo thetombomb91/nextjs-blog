@@ -21,7 +21,7 @@ export default function HomeLayout({ children }) {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:creator" content="@ThomasJDesmond" />
       </Head>
-      <HeaderLayout />cccc
+      <HeaderLayout />
 
       <div className=" h-full bg-indigo-500  flex align-center justify-center">
         <main className="md:w-3/5 w-4/5 pt-12 flex align-center justify-between">
