@@ -22,7 +22,7 @@ export default function Home({ topPosts, hobbyPosts }) {
           <title>{siteTitle}</title>
 
         </Head>
-        <div>
+        <div className="mb-10">
           <section className="ml-20 pt-5 info pb-5" id="info">
             <div className="container mx-auto px-2 py-8">
               <div className="lg:flex ">
@@ -95,7 +95,7 @@ export default function Home({ topPosts, hobbyPosts }) {
             </ul>
           </section>
 
-          <section className="mt-20 mb-20">
+          <section className="my-20">
             <section className="bg-gray-200 rounded-xl	 shadow-xl p-6 lex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
               <div className="text-center mb-10">
                 <h1 className="sm:text-3xl text-xl font-medium title-font text-gray-900 mb-4">
@@ -127,8 +127,8 @@ export default function Home({ topPosts, hobbyPosts }) {
               </div>
             </section>
           </section>
-          <section className="bg--200 rounded-xl	 shadow-xl p-6 lex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
 
+          <section className="bg-gray-800 rounded-xl shadow-xl p-6 lex flex-wrap sm:-mx-4 -mt-4">
             <h2 className="text-white text-2xl pt-8">
               <div className="text-center mb-10">
                 <h1 className="sm:text-3xl text-xl font-medium title-font text-white mb-4">
@@ -139,7 +139,7 @@ export default function Home({ topPosts, hobbyPosts }) {
             </h2>
             <ul className="p-5">
               {hobbyPosts?.map(({ id, date, title }) => (
-                <li className="pt-4 underline list-disc" key={id}>
+                <li className="text-white pt-4 underline list-disc" key={id}>
                   <Link href={`/posts/${id}`}>
                     <a className="text-white font-semibold text-lg">{title}</a>
                   </Link>
