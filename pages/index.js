@@ -2,6 +2,7 @@ import Head from "next/head";
 import HomeLayout, { siteTitle } from "../components/homeLayout";
 import { getPostsByCategory as getAllPostsByCategory } from "../lib/posts";
 import Link from "next/link";
+import { useState } from 'react'
 
 export async function getStaticProps() {
   const topPosts = getAllPostsByCategory("topPost");
@@ -14,7 +15,44 @@ export async function getStaticProps() {
     },
   };
 }
+
+function validateEmail(email) {
+  const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  return re.test(String(email).toLowerCase());
+}
+
 export default function Home({ topPosts, hobbyPosts }) {
+  const [input, setInput] = useState('')
+
+
+  const subscribe = async (e) => {
+    e.preventDefault() // prevents page reload
+
+    console.log(input)
+    if (!validateEmail(input)) {
+      alert('Invalid Email')
+      return;
+    }
+
+    try {
+      const res = await fetch('./api/subscribe', {
+        method: 'post',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          emailAddress: input
+        })
+      })
+
+      if (res.status === 200) {
+        alert('You are subscribed!')
+      } else {
+        alert('Sorry, something went wrong.')
+      }
+    } catch (err) { }
+  }
+
   return (
     <>
       <HomeLayout>
@@ -140,8 +178,8 @@ export default function Home({ topPosts, hobbyPosts }) {
                   </p>
                   <div className='p-8 justify-center items-center flex-initial'>
                     <form className='flex'>
-                      <input className='bg-gray-200 shadow-inner rounded-l p-2 flex-1' id='email' type='email' aria-label='email address' placeholder='Enter your email address' />
-                      <button className='bg-blue-600 hover:bg-blue-700 duration-300 text-white shadow p-2 rounded-r' type='submit'>
+                      <input className='bg-gray-200 shadow-inner rounded-l p-2 flex-1' id='email' type='email' aria-label='email address' placeholder='Enter your email address' onChange={e => setInput(e.target.value)} />
+                      <button className='bg-blue-600 hover:bg-blue-700 duration-300 text-white shadow p-2 rounded-r' type='submit' onClick={subscribe} >
                         Sign Up
                       </button>
                     </form>
