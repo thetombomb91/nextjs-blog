@@ -56,7 +56,7 @@ export default function Home({ topPosts, hobbyPosts }) {
               </div>
             </div>
           </section>
-          <section className="bg-white rounded-xl	 shadow-xl p-6 lex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+          <section className="bg-white rounded-xl	 shadow-xl p-6 lex flex-wrap">
             <div className="text-center mb-10">
               <h1 className="sm:text-3xl text-xl font-medium title-font text-gray-900 mb-4">
                 📝Cool Blog Posts:
@@ -95,8 +95,8 @@ export default function Home({ topPosts, hobbyPosts }) {
             </ul>
           </section>
 
-          <section className="my-20">
-            <section className="bg-gray-200 rounded-xl	 shadow-xl p-6 lex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+          <section className="my-10">
+            <section className="bg-gray-200 rounded-xl shadow-xl p-6 lex flex-wrap">
               <div className="text-center mb-10">
                 <h1 className="sm:text-3xl text-xl font-medium title-font text-gray-900 mb-4">
                   👨‍🏫 My Courses:
@@ -128,7 +128,30 @@ export default function Home({ topPosts, hobbyPosts }) {
             </section>
           </section>
 
-          <section className="bg-gray-800 rounded-xl shadow-xl p-6 lex flex-wrap sm:-mx-4 -mt-4">
+          <section className="my-10">
+            <section className="bg-gray-300 rounded-xl	 shadow-xl p-6 lex flex-wrap ">
+              <div className="text-center mb-5">
+                <h1 className="sm:text-3xl text-xl font-medium title-font text-gray-900 mb-4">
+                  📰 My Newsletter:
+              </h1>
+                <div className="sm:flex items-center mt-2 justify-center align-middle">
+                  <p className="xl:w-2/4 lg:w-3/4 text-gray-500s">
+                    Sign up for my newsletter to get notified of my latest posts. (No Spam!)
+                  </p>
+                  <div className='p-8 justify-center items-center flex-initial'>
+                    <form className='flex'>
+                      <input className='bg-gray-200 shadow-inner rounded-l p-2 flex-1' id='email' type='email' aria-label='email address' placeholder='Enter your email address' />
+                      <button className='bg-blue-600 hover:bg-blue-700 duration-300 text-white shadow p-2 rounded-r' type='submit'>
+                        Sign Up
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </section>
+
+          <section className="bg-gray-800 rounded-xl shadow-xl p-6 lex flex-wrap">
             <h2 className="text-white text-2xl pt-8">
               <div className="text-center mb-10">
                 <h1 className="sm:text-3xl text-xl font-medium title-font text-white mb-4">
