@@ -8,10 +8,8 @@ class MyDocument extends Document {
 
 
     render() {
-
         let analyticsCode = null;
-        console.log(process.env.ENVIRONMENT);
-        if(process.env.ENVIRONMENT === "prod") {
+        if(process.env.ENVIRONMENT !== "dev") {
             analyticsCode = (         
                 <>          
             <script
