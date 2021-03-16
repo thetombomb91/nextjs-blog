@@ -6,27 +6,37 @@ class MyDocument extends Document {
         return { ...initialProps }
     }
 
+
     render() {
+
+        let analyticsCode = null;
+        console.log(process.env.ENVIRONMENT);
+        if(process.env.ENVIRONMENT === "prod") {
+            analyticsCode = (         
+                <>          
+            <script
+                async
+                src={`https://www.googletagmanager.com/gtag/js?id=UA-101030398-1`}
+            />
+            <script
+                dangerouslySetInnerHTML={{
+                    __html: `
+                        window.dataLayer = window.dataLayer || [];
+                        function gtag(){dataLayer.push(arguments);}
+                        gtag('js', new Date());
+                        gtag('config', 'UA-101030398-1', {
+                        page_path: window.location.pathname,
+                        });
+                    `,
+                }}
+            />
+            </>)
+        }
+
         return (
             <Html lang="en">
                 <Head>
-                    {/* Global Site Tag (gtag.js) - Google Analytics */}
-                    <script
-                        async
-                        src={`https://www.googletagmanager.com/gtag/js?id=UA-101030398-1`}
-                    />
-                    <script
-                        dangerouslySetInnerHTML={{
-                            __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'UA-101030398-1', {
-              page_path: window.location.pathname,
-            });
-          `,
-                        }}
-                    />
+                    {analyticsCode}
                 </Head>
                 <body>
                     <Main />
