@@ -188,37 +188,6 @@ export default function Home({ topPosts, hobbyPosts }) {
           </section>
         </div>
       </HomeLayout>
-      <style>
-        {`
-
-
-      @media only screen and (max-width: 768px) {
-
-        #info-img {
-          margin-left: 50px
-        }
-
-        #info {
-          margin-left: 0;
-        }
-
-        .info {
-          padding-top: 0px;
-        }
-
-        #set-image {
-         width: 50%
-          
-        }
-
-        #info-img {
-          margin-bottom: 10px
-        }
-        
-      }
-    
-    `}
-      </style>
     </>
   );
 }
