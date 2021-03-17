@@ -19,14 +19,14 @@ export default function Courses() {
                     <div className="inline">
                         <div className="pt-4">
                             <Link href="https://thinkster.io/tutorials/building-a-crud-application-with-angular-asp-net-core-course-introduction">
-                                <a className="text-black font-semibold text-lg title-font font-medium mb-3 underline">
+                                <a className="text-black font-semibold text-lg title-font font-medium mb-3 underline hover:text-gray-600">
                                     Building a CRUD Application with Angular & ASP.Net Core
                                 </a>
                             </Link>
                         </div>
                         <div className="pt-4">
                             <Link href="https://thinkster.io/tutorials/creating-a-c-asp-net-core-api-introduction">
-                                <a className="text-black font-semibold text-lg title-font font-medium mb-3 underline">
+                                <a className="text-black font-semibold text-lg title-font font-medium mb-3 underline hover:text-gray-600">
                                     Creating a C# ASP.Net Core API
                                 </a>
                             </Link>

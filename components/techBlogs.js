@@ -20,7 +20,7 @@ export default function TechBlogs(props) {
                 {props.posts?.map(({ id, title, description }) => (
                     <li className="pt-6 no-underline" key={id}>
                         <Link href={`/posts/${id}`}>
-                            <a className="text-black font-semibold text-lg title-font font-medium mb-3 underline">
+                            <a className="text-black font-semibold text-lg title-font font-medium mb-3 underline hover:text-gray-600">
                                 {title}
                             </a>
                         </Link>
