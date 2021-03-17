@@ -8,11 +8,10 @@ class MyDocument extends Document {
 
 
     render() {
-        let analyticsCode = null;
-        if(process.env.ENVIRONMENT !== "dev") {
-            analyticsCode = (         
-                <>          
-            <script
+        return (
+            <Html lang="en">
+                <Head>
+                <script
                 async
                 src={`https://www.googletagmanager.com/gtag/js?id=UA-101030398-1`}
             />
@@ -27,15 +26,7 @@ class MyDocument extends Document {
                         });
                     `,
                 }}
-            />
-            </>)
-        }
-
-        return (
-            <Html lang="en">
-                <Head>
-                    {analyticsCode}
-                </Head>
+            />                </Head>
                 <body>
                     <Main />
                     <NextScript />
