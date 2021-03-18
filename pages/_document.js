@@ -6,27 +6,52 @@ class MyDocument extends Document {
         return { ...initialProps }
     }
 
-
     render() {
+        let shouldTrackAnalytics = process.env.SHOULD_TRACK_ANALYTICS;
+        let analtyicsCode = null;
+        if (shouldTrackAnalytics == true) {
+            analtyicsCode = (
+                <>
+                    <script
+                        async
+                        src={`https://www.googletagmanager.com/gtag/js?id=UA-101030398-1`}
+                    />
+                    <script
+                        dangerouslySetInnerHTML={{
+                            __html: `
+                            window.dataLayer = window.dataLayer || [];
+                            function gtag(){dataLayer.push(arguments);}
+                            gtag('js', new Date());
+                            gtag('config', 'UA-101030398-1', {
+                            page_path: window.location.pathname,
+                            });
+                        `,
+                        }}
+                    />
+                </>)
+        } else {
+            analtyicsCode = (
+                <>
+                    <script
+                        async
+                        src={`https://www.googletagmanager.com/gtag/js?id=UA-101030398-1`}
+                    />
+                    <script
+                        dangerouslySetInnerHTML={{
+                            __html: `
+                            window.dataLayer = window.dataLayer || [];
+                            function gtag(){dataLayer.push(arguments);}
+                        `,
+                        }}
+                    />
+                </>)
+        }
+
         return (
             <Html lang="en">
                 <Head>
-                <script
-                async
-                src={`https://www.googletagmanager.com/gtag/js?id=UA-101030398-1`}
-            />
-            <script
-                dangerouslySetInnerHTML={{
-                    __html: `
-                        window.dataLayer = window.dataLayer || [];
-                        function gtag(){dataLayer.push(arguments);}
-                        gtag('js', new Date());
-                        gtag('config', 'UA-101030398-1', {
-                        page_path: window.location.pathname,
-                        });
-                    `,
-                }}
-            />                </Head>
+                    {analtyicsCode}
+                </Head>
                 <body>
                     <Main />
                     <NextScript />
