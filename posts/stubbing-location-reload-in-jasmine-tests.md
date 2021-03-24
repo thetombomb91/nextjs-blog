@@ -6,7 +6,6 @@ categories:
   - "angular"
   - "javascript"
   - "programming"
-  - "topPost"
 ---
 
 ![Jasmine test logo](/images/forPosts/jasmine-1024x1020.png)
