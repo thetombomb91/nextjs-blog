@@ -6,6 +6,19 @@ module.exports = {
       sans: ['ui-sans-serif', 'system-ui'],
       // serif: ['Merriweather', 'serif'],
     },
+    extend: {
+      typography: {
+        DEFAULT: {
+          css: {
+            a: {
+              '&:hover': {
+                color: '#4b5563',
+              },
+            },
+          },
+        },
+      }
+    },
   },
   variants: {
     extend: {},
