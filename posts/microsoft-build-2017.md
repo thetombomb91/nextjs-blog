@@ -7,7 +7,7 @@ categories:
 coverImage: "build17-small.jpg"
 ---
 
-![Microsoft Build 2017 Logo](/images/forPosts/build17-small.jpg)
+![Microsoft Build 2017 Logo](/images/ForPosts/build17-small.jpg)
 
 I was lucky enough to attend [Microsoft Build 2017](https://build.microsoft.com) this year. A ton of great products were announced and released at Build. And I want to list out some of the ones that got me the most excited while at the conference.
 

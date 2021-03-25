@@ -16,7 +16,7 @@ At a high level here are some of the most common shapes
 - E - Someone that has experience and can execute plans
 - I - No general knowledge but has specialty 
 
-![Shows the I shape, horizontal line for generalist, and T shape](/images/forPosts/shapesOfPeople.png)
+![Shows the I shape, horizontal line for generalist, and T shape](/images/ForPosts/shapesOfPeople.png)
 
 But for this post, I am not interested in the basic shapes. I want to delve into what shapes come about in a mob programming environment. What shapes come out when working in a highly collaborative team where all knowledge and tasks are shared.
 
@@ -28,7 +28,7 @@ Let's assume everyone joins a mob and starts as a T shaped member. Everyone has 
 
 What I believe happens on a mob is the original T shapes expand. The single point of knowledge expands into the other areas that each other team member is an expert of. The T's expand to become Trapezoids, specifically upside down trapezoids. 
 
-![Upside down trapezoid](/images/forPosts/trapezoid.png)
+![Upside down trapezoid](/images/ForPosts/trapezoid.png)
 
 The team members keep their original breath of general knowledge but their specialties expand. In time they are all experts in testing, the technology, design, and all other aspects of the project. Everyone on the team has become more versatile because of the collaborative environment. They no longer need to rely on a single person because of their specialty. 
 

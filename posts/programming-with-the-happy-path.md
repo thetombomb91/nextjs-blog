@@ -7,7 +7,7 @@ categories:
 coverImage: "programming.jpg"
 ---
 
-![Image of a laptop with code on screen](/images/forPosts/programming.jpg)
+![Image of a laptop with code on screen](/images/ForPosts/programming.jpg)
 
 When I start down a new solution or looking at how to solve a problem one of the first things to jump into my head are all the crazy edge cases that may or may not ever occur. I see it as a blessing in disguise because, in the long run, it helps out tons to be able to think about the crazy things a user may do. But when just trying to get a proof of concept together it can make the work that much more daunting.
 

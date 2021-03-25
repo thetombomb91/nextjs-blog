@@ -9,7 +9,7 @@ tags:
   - "npm"
 ---
 
-![npm package manager logo](/images/forPosts/npm-1024x399.png)
+![npm package manager logo](/images/ForPosts/npm-1024x399.png)
 
 The other day I was messing around with Angular and upgraded a project from Angular 8 to Angular 10. I wanted to see the new hotness! Upon upgrading my fairly simple application I was hit with 281 low vulnerabilities reported when I performed an 'npm install'.
 

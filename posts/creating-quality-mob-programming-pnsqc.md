@@ -12,4 +12,4 @@ My final draft of the technical write up has been turned in and will be publishe
 
 Get more information on the talk here [https://www.pnsqc.org/creating-quality-with-mob-programming/](https://www.pnsqc.org/creating-quality-with-mob-programming/). If you can make it to PNSQC 2019 check out my talk.
 
-![PNSQC 2019 conference logo](/images/forPosts/software-quality-conference-0-1-12.png)
+![PNSQC 2019 conference logo](/images/ForPosts/software-quality-conference-0-1-12.png)

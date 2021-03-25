@@ -64,4 +64,4 @@ Example of a invalid reassign of const
 
 **const** in JavaScript made me uneasy at first. The ability to change properties within a **const** was a new concept to me. However, I took the time to learn about it and understand it. I hope that after this **const** is a little less scary for you as well.
 
-![programming on a macbook](/images/forPosts/emile-perron-xrVDYZRGdw4-unsplash-1-1024x576.jpg)
+![programming on a macbook](/images/ForPosts/emile-perron-xrVDYZRGdw4-unsplash-1-1024x576.jpg)

@@ -7,7 +7,7 @@ categories:
 
 Weather Ride is officially released to the iOS app store. It's free and available to [download now](https://itunes.apple.com/us/app/motorcycle-weather-ride/id1457879287?ls=1&mt=8). Give it a go now!
 
-![Screenshot of Weather Ride app on iOS Device](/images/forPosts/1080screenshotPopup_framed-554x1024.png)
+![Screenshot of Weather Ride app on iOS Device](/images/ForPosts/1080screenshotPopup_framed-554x1024.png)
 
 The app has been iOS ready for a while but I finally pulled the trigger and paid the $99 subscription fee to get my Apple Developer account. I'm glad I did because now I've got my app in both major store iOS and Android.
 

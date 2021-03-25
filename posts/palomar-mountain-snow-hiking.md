@@ -7,7 +7,7 @@ categories:
 coverImage: "gopr3569.jpg"
 ---
 
-![Thomas Desmond selfie on Palomar Mountain, CA](/images/forPosts/gopr3569.jpg)
+![Thomas Desmond selfie on Palomar Mountain, CA](/images/ForPosts/gopr3569.jpg)
 
 Friday at work and no plans for Saturday. So I started asking around and seeing what coworkers were planning. I honed in on plans with Tom, snowshoeing up at [Palomar Mountain](http://www.parks.ca.gov/?page_id=637)! It had been pouring rain by Southern California standards for the past few days, so we were hoping for a good bit of snow on Palomar Mountain.
 
@@ -17,7 +17,7 @@ We set off early Saturday morning in Tom's Subaru up towards Palomar Mountain. T
 
 We pressed on and made our way towards Palomar Mountain. We were a little disappointed at first as we came up the mountain road because we barely started to see patches of snow at 5000 feet and only solid snow around 5500 feet. Even then the snow may have only been 2 to 6 inches deep. We pressed on though and went all the way to the gates in front of the public parking area for the observatory. The observatory parking lot was gated off so there really was nowhere to park. We got out of the car anyway and enjoyed the crisp cold air on Palomar mountain for the first time that day.
 
-![South Grade Road before the observatory parking lot Palomar Mountain](/images/forPosts/gopr3536.jpg) 
+![South Grade Road before the observatory parking lot Palomar Mountain](/images/ForPosts/gopr3536.jpg) 
 
 The air was frigid, and the clothes I had on were from when it was still 60 degrees earlier that day back at home. I quickly put on my warmer clothes and began to romp around in the snow. This spot we were at was the highest elevation point that is most readily available by a car. And even here the snow was not too much more than 6 inches thick. The second sad part was we were not even allowed to park here so we would have to go down in elevation before we could park. Which only meant less snow.
 
@@ -25,15 +25,15 @@ Still, we went down the mountain and ended up parking at the entrance to [Fry Cr
 
 We started walking up the snow-covered road into the campground. Our first stop was the sign designating all the camping spot locations, and we noticed a trail that went around the entire campground. We headed out the find the trail. It was a snow-covered trail but ultimately not too difficult to find. The snow fell in a pattern where the snow was flat where the trail should have been. We followed the flattened snow around the camp.
 
-![Trail sign in Fry Creek Campground Palomar Mountain, CA](/images/forPosts/gopr3548.jpg) 
+![Trail sign in Fry Creek Campground Palomar Mountain, CA](/images/ForPosts/gopr3548.jpg) 
 
 It was a little serene to be hiking a snowed over a trail that had no previous footprints on it. We were almost blazing the trail for ourselves. The fresh crunch of snow under each footstep was great. It became apparent that this trail was not meant to be used during the snow or rainy season as it went right through multiple waterways. We found ourselves hopping and jumping through a few water-covered areas.
 
-![Stream crossing along the trail in the snow Palomar Mountain, CA](/images/forPosts/gopr3556.jpg)
+![Stream crossing along the trail in the snow Palomar Mountain, CA](/images/ForPosts/gopr3556.jpg)
 
 A very surprising thing we noticed were ladybugs. Yes, ladybugs. I saw a large clump of red stuff on a tree. I had not seen anything like it before, so I went in for a closer inspection. The red stuff was dozens of ladybugs. They must be hunkering down for the winter trying to hold out through the cold temperatures waiting for spring. I never would have expected to see ladybugs up here this time of year especially so open to all the elements. They must hibernate this time of the year.
 
-![Ladybugs bunched up on a pine tree](/images/forPosts/gopr3558.jpg) 
+![Ladybugs bunched up on a pine tree](/images/ForPosts/gopr3558.jpg) 
 
 After about a mile of walking on the trail and losing the trail a few times, we found ourselves at the very end of the campgrounds. It was a great spot to take a break and enjoy the solitude of having the entire campground to ourselves.
 
@@ -43,6 +43,6 @@ After a good rest and good conversation, we headed back. We did not head back th
 
 Indeed it did. We were actually back very close to the entrance of the camping area in no time. We decided we did not need to hike too much more so headed back towards the car. It was an enjoyable hike walking on snow with no tracks and blazing our own trail at times. There was plenty of snow around to be fun and get your boots soaked and feet cold. There was even enough snow for some decorated snowmen that someone had made earlier in the day.
 
-![Snowman in Fry Creek Campground Palomar Mountain, CA](/images/forPosts/gopr3574.jpg) 
+![Snowman in Fry Creek Campground Palomar Mountain, CA](/images/ForPosts/gopr3574.jpg) 
 
 That ended our exploration of a snow-covered Palomar Mountain. It was a satisfying trip. There was plenty of snow to make the trip fun. And some good company never hurts.

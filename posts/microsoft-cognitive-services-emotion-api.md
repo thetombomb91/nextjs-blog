@@ -23,4 +23,4 @@ From my dozen or so attempts at taking a picture of myself, it gave quite accura
 
 The free tier for using the API is quite impressive in terms of the number of calls available. I hope to be writing a post soon showing off an app I have made in Xamarin.Forms incorporating the emotion API.
 
-![Xamarin.Forms Microsoft Emotion Api](/images/forPosts/Screenshot_2017-07-16-16-45-38-576x1024.png)
+![Xamarin.Forms Microsoft Emotion Api](/images/ForPosts/Screenshot_2017-07-16-16-45-38-576x1024.png)

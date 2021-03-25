@@ -10,7 +10,7 @@ tags:
   - "pnsqc"
 ---
 
-[![PNSQC Culture Of Quality 2019 Logo](/images/forPosts/pnsqc.jpg)](https://www.pnsqc.org/)
+[![PNSQC Culture Of Quality 2019 Logo](/images/ForPosts/pnsqc.jpg)](https://www.pnsqc.org/)
 
 This week I had the pleasure of attending and speaking at the Pacific Northwest Software Quality Conference (PNSQC). This is my second time attending the conference and my first time presenting at this conference or any conference for that matter.
 

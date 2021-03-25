@@ -11,7 +11,7 @@ tags:
 coverImage: "benefits2.png"
 ---
 
-![Blue logo with the word benefits](/images/forPosts/benefits2.png)
+![Blue logo with the word benefits](/images/ForPosts/benefits2.png)
 
 Here is What is going right: Mob Programming Benefits (Part 3). I will give a short explanation of the two benefits below. Check out the other parts of the series for even more benefits of mob programming.
 

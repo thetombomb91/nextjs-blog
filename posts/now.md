@@ -14,4 +14,4 @@ What I am doing now, in no real order:
    -   Looking for where to go on my next backpacking trip, researching desolation wilderness!
    -   Exploring the open road on my 2009 Kawasaki Versys
 
-![Thomas Desmond backpacking the Loast Coast Trail in Northern California](/images/forPosts/lostCoast.jpg)
+![Thomas Desmond backpacking the Loast Coast Trail in Northern California](/images/ForPosts/lostCoast.jpg)

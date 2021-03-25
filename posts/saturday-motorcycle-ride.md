@@ -8,11 +8,11 @@ categories:
 coverImage: "1016161541a_hdr.jpg"
 ---
 
-![1993 Honda Nighthawk motorcycle at a Southern California beach](/images/forPosts/1016161541a_hdr.jpg)
+![1993 Honda Nighthawk motorcycle at a Southern California beach](/images/ForPosts/1016161541a_hdr.jpg)
 
 This is my very first post talking about a ride I did on my 1993 CB750 Honda Nighthawk. I have had my bike now for maybe a little over a month now. After a full carb rebuild, the bike is running in tip-top shape. It ran well beforehand but now it has quite a bit more throttle responsiveness. Now off the stop sign or stop light the bike does not wait for a second or so before taking off. The bike is beautiful and was amazingly taken care of by previous owners.
 
-On Saturday morning I decided I wanted to go for a longer ride something about 50 or 60 miles. And with that, I also decided I want to take it for an overnight camping trip. I packed up the bike ghetto bungied on a duffle bag and set out. I was a little nervous about the duffle bag and saddlebags flying off or shifting around but no issues at all during the ride. ![1993 Honda Nighthawk motorcycle all packed up for a long ride](/images/forPosts/1112160854_hdr.jpg)
+On Saturday morning I decided I wanted to go for a longer ride something about 50 or 60 miles. And with that, I also decided I want to take it for an overnight camping trip. I packed up the bike ghetto bungied on a duffle bag and set out. I was a little nervous about the duffle bag and saddlebags flying off or shifting around but no issues at all during the ride. ![1993 Honda Nighthawk motorcycle all packed up for a long ride](/images/ForPosts/1112160854_hdr.jpg)
 
 I was on my way to the [Indian Flats](http://www.fs.usda.gov/recarea/cleveland/recreation/camping-cabins/recarea/?recid=47550&actid=29) campground just outside of Warner Springs CA. I chose this spot because I had been there before a couple of years ago, but mainly because of the roads I would take there I was very familiar with. I did not want to worry about directions and getting lost on my first big ride.
 
@@ -20,13 +20,13 @@ The ride out was superb. The weather was perfect just a little chilly which felt
 
 I was soon at the 76/79 turn and got on the 79 headed north. I took the almost mandatory break at the turn off of the S2. I say mandatory because just about any time we were going out the desert we would park here regroup and stretch our legs. Having ridden basically non-stop from home up to this point my legs appreciated a little moving around. Catching the views from here was also a plus. I knew that there was not too much riding left till I got to the camping spot so I hopped back on the bike and continued on to Indian Flats.
 
-![The dirt lot at the corner of the 79 freeway and S2 in Southern California](/images/forPosts/gopr0559.jpg)
+![The dirt lot at the corner of the 79 freeway and S2 in Southern California](/images/ForPosts/gopr0559.jpg)
 
 As I rode down the road I saw the sign for Indian Flats while still going 60 miles per hour. It is a pretty easy turnoff to miss. Note to self if you are coming from the 76 up the 79 and reach the glider plane airport, you have already passed the Indian Flats campground turn off. So I turned around and this time made the turn. At this point, it is a 7-mile single lane paved road (paved is a bit of an overstatement). It is paved enough just had to keep an eye out for potholes and occasionally stand up on the pegs when a big bump was up ahead.
 
 I only met one or two cars along the way but the 7 miles felt a little longer than 7 miles for some reason. Probably because I had to keep my speed down for the most part. After riding into the hills for 7 miles the paved road leads you directly into the campground. There are 17 spots total and maybe about 6 of them were already filled. I set up shop in campground 11 because it was secluded and shady.
 
-![A view of the Indian Flats campground near Warner Springs California](/images/forPosts/gopr0563.jpg)
+![A view of the Indian Flats campground near Warner Springs California](/images/ForPosts/gopr0563.jpg)
 
 I set up my cot and sleeping bag, yes I did not bring a tent. I wanted to sleep under the stars. I was a little tired from riding out there so I went for a nice nap in the shade on my cot. Slept for about an hour feeling rejuvenated. It was 1 in the afternoon. I came to the realization that it would not get dark for another 4 hours and once it was dark I would not even be able to have a campfire because I did not have any wood (Hard to carry a night's worth of firewood on a Honda Nighthawk).
 

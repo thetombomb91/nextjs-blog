@@ -9,7 +9,7 @@ tags:
 coverImage: "success-programming.jpg"
 ---
 
-![Keyboard with the Enter key saying Success](/images/forPosts/success-programming.jpg)
+![Keyboard with the Enter key saying Success](/images/ForPosts/success-programming.jpg)
 
 I want to call this blog post _What is going right: Mob Programming Benefits (Part 1)_ because I know there are and will be more things going right because of Mob Programming. As of right now, I have been mob programming for just under a year. So for part one, I wanted to explain two of the major factors that are going right in mob programming.
 
@@ -40,4 +40,4 @@ Spending so much time with everyone on a team built strong work and even persona
 
 Stay tuned for more short "What is going right" posts.
 
-![Vault Boy from Fallout Video Game with a thumbs up](/images/forPosts/falloutvaultboythumbsup.jpg)
+![Vault Boy from Fallout Video Game with a thumbs up](/images/ForPosts/falloutvaultboythumbsup.jpg)

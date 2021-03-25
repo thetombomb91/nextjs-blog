@@ -16,4 +16,4 @@ I do not need or want to convince people mob programming is what they need to do
 
 I encourage you to come to the Agile + DevOps West 2020 conference and you will find me speaking about Mob Programming June 11th!
 
-[![Agile + DevOps West Conference Logo](/images/forPosts/Agile-DevOps_forLight_Color_1.png)](https://agiledevopswest.techwell.com/)
+[![Agile + DevOps West Conference Logo](/images/ForPosts/Agile-DevOps_forLight_Color_1.png)](https://agiledevopswest.techwell.com/)

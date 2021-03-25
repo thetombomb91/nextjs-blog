@@ -6,7 +6,7 @@ categories:
   - "angular"
 ---
 
-![Angular Logo](/images/forPosts/angular.png)
+![Angular Logo](/images/ForPosts/angular.png)
 
 RxJS and Observables are HOT in Angular now. Many of us have started using them and they are not too difficult to pick up and begin using. But there is probably a small piece you are forgetting...Unsubscribing to your subscriptions.
 

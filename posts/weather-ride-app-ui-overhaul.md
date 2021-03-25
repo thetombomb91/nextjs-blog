@@ -10,7 +10,7 @@ I have recently found motivation to work on my Android app [Weather Ride](https:
 
 I did some refactoring over the past few weeks but the bulk of my work has been put into revamping the terrible UI. First I got a designer to create some mockups and icons. Then I began implementing the much more professional look and feel. Below you'll see the UI progress made so far.
 
-![Current UI of Weather Ride mobile app.](/images/forPosts/motoWeatherScreenshot.png)
+![Current UI of Weather Ride mobile app.](/images/ForPosts/motoWeatherScreenshot.png)
 
 There is still more to do. I have not had a chance to touch the settings screen yet. I have mockups for that and I hope to tackle it soon. It gets the job done but not in the prettiest way.
 

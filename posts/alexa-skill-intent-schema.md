@@ -8,7 +8,7 @@ categories:
 coverImage: "ap_resize.png"
 ---
 
-![Amazon Alexa Dot speaker with logos behind](/images/forPosts/ap_resize.png)
+![Amazon Alexa Dot speaker with logos behind](/images/ForPosts/ap_resize.png)
 
 In this post, I will describe the basics of designing and working with the IntentSchema for an Amazon Alexa skill. To provide some context, an Alexa skill can have multiple intents. Each intent is a specific action within the skill.
 

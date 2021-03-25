@@ -12,7 +12,7 @@ tags:
   - "software-practices"
 coverImage: "header_success.jpg"
 ---
-![Keyboard with the word Success on the Enter key](/images/forPosts/header_success.jpg)
+![Keyboard with the word Success on the Enter key](/images/ForPosts/header_success.jpg)
 
 I have been so busy with the teaching job that I have not had time to dedicate to this blog. Hopefully the teaching gets easier and cools down soon. It should now that the semester is just about done and there is not too much left in lesson plan prep.
 

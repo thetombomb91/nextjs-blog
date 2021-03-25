@@ -6,7 +6,7 @@ categories:
 coverImage: "vslogo.png"
 ---
 
-![Visual Studio Live Conference logo](/images/forPosts/vslogo.png)
+![Visual Studio Live Conference logo](/images/ForPosts/vslogo.png)
 
 Visual Studio Live 2018 in Las Vegas just passed. With my organization's support, I was able to attend and have a great time learning about all things .Net, Microsoft, and More!
 
@@ -17,7 +17,7 @@ I wanted to share my personal highlights from my trip and what has me most excit
 - [Azure Bot Service](https://azure.microsoft.com/en-us/services/bot-service/)
 - [Azure Machine Learning Studio](https://studio.azureml.net/)
 
-### Azure Bot Service![Azure Bot Service](/images/forPosts/azurebots-e1520903704402.png)
+### Azure Bot Service![Azure Bot Service](/images/ForPosts/azurebots-e1520903704402.png)
 
 The first session I attended at Visual Studio Live was an all-day workshop called ["Add Intelligence to Your Solutions with AI, Bots, and More"](https://vslive.com/Events/Las-Vegas-2018/Sessions/Monday/M03-Workshop-Add-Intelligence-to-Your-Solutions-with-AI-Bots-and-More.aspx). This workshop led by Brian Randall had topic points around Azure's bot services, various cognitive services, as well as their DevOps techniques.
 
@@ -29,7 +29,7 @@ With the following tutorial [Create a bot with bot service](https://docs.microso
 
 I encourage you to make your own bot, a lot is possible even with the free payment tiers on Azure. And I will share my further exploration of bots and cognitive services.
 
-### Azure Machine Learning Studio![Azure Machine Learning Studio](/images/forPosts/machinelearning-e1521248286578.png)
+### Azure Machine Learning Studio![Azure Machine Learning Studio](/images/ForPosts/machinelearning-e1521248286578.png)
 
 Machine learning has become a popular topic. It has been something that I have always wanted to learn more about. I was excited to attend this session and learned a lot from James McCaffrey.
 

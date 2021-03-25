@@ -16,7 +16,7 @@ With a test, we verify that our code solves the problem it was intended to solve
 
 #### What is Test-Driven Development?
 
-![Test Driven Development](/images/forPosts/tdd.png)
+![Test Driven Development](/images/ForPosts/tdd.png)
 
 _"_ TDD can be defined as a programming practice that instructs developers to write new code only if an automated test has failed._"_ [Guru99](https://www.guru99.com/test-driven-development.html)
 
@@ -34,7 +34,7 @@ We have made it to the **refactor** step. Now that we have code written that is 
 
 With the tests backing us up, we can feel comfortable modifying the code running our tests and ensuring we are still green.
 
-![Flow diagram of red, green, refactor](/images/forPosts/red-green-refactor.jpg)
+![Flow diagram of red, green, refactor](/images/ForPosts/red-green-refactor.jpg)
 
 The simple definition of Test-Driven Development is that we write our tests first. The code is tested from the very beginning. We gain the confidence to refactor and improve our code.
 

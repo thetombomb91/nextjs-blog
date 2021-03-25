@@ -6,7 +6,7 @@ categories:
     - "Alexa skill"
 ---
 
-![Amazon Alexa Dot speaker with logos behind](/images/forPosts/ap_resize.png)
+![Amazon Alexa Dot speaker with logos behind](/images/ForPosts/ap_resize.png)
 
 Recently I published [Space Explorer](https://www.amazon.com/TomBomb-Space-Explorer/dp/B07M5DH4FT/ref=sr_1_1?s=digital-skills&ie=UTF8&qid=1547653322&sr=1-1&keywords=space+explorer) my first ever Alexa Skill! I have been messing around with Alexa skill for a long time now but had never actually published anything.
 
@@ -18,4 +18,4 @@ Overall making a skill for Alexa is not too difficult and I hope to make more of
 
 Enable Space Explorer on your Alexa enabled devices here [Space Explorer](https://www.amazon.com/TomBomb-Space-Explorer/dp/B07M5DH4FT/ref=sr_1_1).
 
-![Space Explorer Alexa](/images/forPosts/Screen-Shot-2019-01-16-at-7.50.38-AM-1024x340.png)
+![Space Explorer Alexa](/images/ForPosts/Screen-Shot-2019-01-16-at-7.50.38-AM-1024x340.png)

@@ -8,7 +8,7 @@ categories:
 
 In June of this year, I began working on my first ever online technical course. It just got published! Check out my course published on Thinkster.io: [Creating a C# ASP.Net Core API](https://thinkster.io/tutorials/creating-a-c-asp-net-core-api-introduction). I put in a ton of hard work to create the course and hope others can learn from it and enjoy it.
 
-[![Link to Thinkster.io Course Creating a C# ASP.Net Core API](/images/forPosts/2019-11-04-20_32_54-Window-1024x493.png)](https://thinkster.io/tutorials/creating-a-c-asp-net-core-api-introduction)
+[![Link to Thinkster.io Course Creating a C# ASP.Net Core API](/images/ForPosts/2019-11-04-20_32_54-Window-1024x493.png)](https://thinkster.io/tutorials/creating-a-c-asp-net-core-api-introduction)
 
 The course covers how to make your own API with C# using ASP.Net Core. It starts with the basics covering the GET, POST, PUT, & DELETE HTTP methods and expands into the more advanced cases. You will also learn about status codes, error handling & C# best practices.
 
@@ -18,4 +18,4 @@ Basic knowledge of C# and the desire to learn is all you need to be successful i
 
 Brooke Avery and Joe Eames deserve a big THANK YOU for the support and help in developing this course. Expect more courses in the future. I think my next one will be on LINQ!
 
-[![](/images/forPosts/thinkster.png)](https://thinkster.io/)
+[![](/images/ForPosts/thinkster.png)](https://thinkster.io/)
