@@ -25,9 +25,9 @@ export default function Home({ topPosts, hobbyPosts }) {
           <title>{siteTitle}</title>
         </Head>
         <div className="mb-10">
-          <section className="ml-20 pt-5 info pb-5" id="info">
-            <div className="container mx-auto px-2 py-8">
-              <div className="lg:flex ">
+          <section className="pt-5 info pb-5" id="info">
+            <div className="container mx-auto px-2 py-4">
+              <div className="lg:flex">
                 <div className="lg:w-1/2">
                   <h2 className="text-black  dark:text-gray-100 text-3xl font-bold">
                     Welcome, from <span className="italic">Thomas</span> 👍
