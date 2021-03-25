@@ -7,7 +7,7 @@ categories:
 coverImage: "amazon_alexa_app_logo.png"
 ---
 
-![Amazon Alexa Dot speaker with logos behind](/images/forPosts/amazon_alexa_app_logo.png)
+![Amazon Alexa Dot speaker with logos behind](/images/ForPosts/amazon_alexa_app_logo.png)
 
 
 This post will give the big picture of the components that make up an Amazon Alexa Skill. It will contain next to no code. But will introduce you to the pieces and terminology used in the Alexa world.
@@ -22,7 +22,7 @@ Examples of skills would be
 
 At a very high level, each of these phrases invokes a skill where Alexa will parse the words. The words are then sent to a predetermined function (set of code) in the cloud-based on what the phrase was, the function performs a series of actions, then a result is returned back to your Echo device. This high-level flow is the same for all skills. Let's dive in and get into the details of how this process works.
 
-![amazon-echo.jpg](/images/forPosts/amazon-echo.jpg)
+![amazon-echo.jpg](/images/ForPosts/amazon-echo.jpg)
 
 The main components that makeup Alexa Skill:
 
@@ -94,7 +94,7 @@ I do not want to get too detailed right now into the intentSchema files but they
 
 Now that we have Alexa understanding what a user says. We need to tie that together with our function in the cloud to actually do some processing based on what the user said. We create an AWS Lambda function for this.
 
-_**![aws-lambda](/images/forPosts/aws-lambda.png)**_
+_**![aws-lambda](/images/ForPosts/aws-lambda.png)**_
 
 _**"AWS Lambda** is an event-driven, serverless computing platform provided by Amazon as a part of the Amazon Web Services. It is a compute service that runs code in response to events and automatically manages the_ compute _resources required by that code."_
 
@@ -106,4 +106,4 @@ Currently, functions for AWS Lambda can be written in Node.js (JavaScript), Pyt
 
 To bring it all together there are three major pieces that make up an Alexa skill. We have the utterances, intentSchema, and the AWS Lambda function. Expect a more technical guide very soon on how to create your own Alexa Skill. If anything confused you in this article feel free to leave a comment and I can clarify.
 
-![https_proxy](/images/forPosts/https_proxy.jpg)
+![https_proxy](/images/ForPosts/https_proxy.jpg)
