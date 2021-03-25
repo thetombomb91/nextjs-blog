@@ -20,7 +20,7 @@ export default function PostLayout({ children }) {
       <HeaderLayout />
 
       <div className="w-screen  bg-gradient-to-b from-indigo-500 to-blue-600 flex align-center justify-center">
-        <main className="sm:w-3/5 w-11/12 bg-white flex justify-center align-center md:m-12 ">
+        <main className="flex justify-center align-center md:m-12 ">
           {children}
         </main>
       </div>
