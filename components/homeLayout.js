@@ -24,7 +24,7 @@ export default function HomeLayout({ children }) {
       <HeaderLayout />
 
       <div className=" h-full bg-gradient-to-b from-indigo-500 to-blue-600 flex align-center justify-center">
-        <main className="md:w-3/5 w-4/5 pt-12 flex align-center justify-between">
+        <main className="md:w-3/5 2xl:w-5/12 w-10/12 pt-12 flex align-center justify-between">
           {children}
         </main>
       </div>
