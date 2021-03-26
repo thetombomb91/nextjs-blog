@@ -6,7 +6,7 @@ categories:
   - "graphql"
   - "edge"
   - "topPost"
-socialImage: "/images/ForPosts/javascriptclientbanner.png"
+socialImage: "https://thetombomb-public.s3.amazonaws.com/javascriptGraphQLClients.png"
 ---
 
 ***Apollo Client vs Relay vs GraphQL-Request vs Nanographql***
