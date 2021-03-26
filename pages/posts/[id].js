@@ -23,6 +23,11 @@ export async function getStaticPaths() {
 }
 
 export default function Post({ postData }) {
+  let socialImageUrl = "https://thetombomb-public.s3.amazonaws.com/TomBombHeader.jpeg";
+  if (postData.socialImage) {
+    socialImageUrl = postData.socialImage;
+  }
+
   return (
     <PostLayout>
       <Head>
@@ -31,9 +36,13 @@ export default function Post({ postData }) {
         <meta name="og:title" content={postData.title} />
         <meta name="og:description" content={postData.description}></meta>
         <meta name="description" content={postData.description}></meta>
+        <meta
+          property="og:image"
+          content={socialImageUrl}
+        />
       </Head>
 
-      <article className="bg-white rounded-xl p-4 sm:p-10 prose lg:prose-lg 2xl:prose-xl shadow-xl">
+      <article className="bg-white w-screen rounded-xl p-4 sm:p-10 prose lg:prose-lg 2xl:prose-xl shadow-xl">
         <h1 className="text-xl">{postData.title}</h1>
         <div className="text-gray-400">
           <Date dateString={postData.date} />
