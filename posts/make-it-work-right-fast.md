@@ -5,8 +5,10 @@ date: "2018-05-17"
 categories: 
   - "programming"
   - "topPost"
-coverImage: "kentbeckquote.jpg"
+socialImage: "https://thetombomb-public.s3.amazonaws.com/kentbeckquote.jpg"
 ---
+![Wallpaper with Kent Beck Quote Make it work, Make it right, Make it fast](/images/ForPosts/kentbeckquote.jpg)
+
 
 I support the software development strategy of make it work, make it right, make it fast. This is a quote from Kent Beck, common in the software industry. I interpret this quote as let us make sure our most basic solution solves the problem at hand before investing any more time than necessary.
 
