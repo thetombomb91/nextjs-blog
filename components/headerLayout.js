@@ -26,6 +26,12 @@ export default function HeaderLayout() {
               >
                 🧔 Bio
               </a>
+              <a
+                href="/events"
+                className="mr-5 ml-5 text-white hover:text-gray-900 no-underline"
+              >
+                🥑 Speaking Events
+              </a>
             </nav>
           </div>
         </header>
