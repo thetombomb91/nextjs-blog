@@ -12,6 +12,26 @@ export async function getStaticProps() {
     },
   };
 }
+
+const labelColor = (type) => {
+    let color
+    switch (type) {
+      case 'Conference':
+        color = 'bg-blue-100'
+        break
+      case 'Podcast':
+        color = 'bg-green-200'
+        break
+      case 'Meetup':
+        color = 'bg-red-200'
+        break
+      default:
+        color = 'bg-gray-400'
+    }
+    return color
+  }
+
+
 export default function Events({ allEvents }) {
   return (
     <>
@@ -44,7 +64,7 @@ export default function Events({ allEvents }) {
                     <a className="text-black font-semibold underline hover:text-gray-600">{talkTitle}</a>
                   </Link>
                   <div>
-                  <label className={`bg-red-200 ml-2 pl-1 pr-1 rounded`}>{type}</label> 
+                  <label className={`${labelColor(type)} ml-2 pl-1 pr-1 rounded`}>{type}</label> 
                   </div>
                 </div>
                   <p className="italic">{talkLocation}</p>
