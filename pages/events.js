@@ -44,7 +44,7 @@ export default function Events({ allEvents }) {
                     <a className="text-black font-semibold underline hover:text-gray-600">{talkTitle}</a>
                   </Link>
                   <div>
-                  <label className={`${background} ml-2 pl-1 pr-1 rounded`}>{type}</label> 
+                  <label className={`bg-red-200 ml-2 pl-1 pr-1 rounded`}>{type}</label> 
                   </div>
                 </div>
                   <p className="italic">{talkLocation}</p>
