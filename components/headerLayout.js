@@ -13,7 +13,7 @@ export default function HeaderLayout() {
                 <span className="text-white" id="name">Thomas aka</span> TheTomBomb
               </span>
             </a>
-            <nav className="md:ml-auto flex flex-wrap items-center  justify-center">
+            <nav className="md:ml-auto flex flex-wrap items-center  justify-center flex-col sm:flex-row">
               <a
                 href="/"
                 className="mr-5 text-white hover:text-gray-900 no-underline"
@@ -22,13 +22,13 @@ export default function HeaderLayout() {
               </a>{" "}
               <a
                 href="/posts/bio"
-                className="mr-5 ml-5 text-white hover:text-gray-900 no-underline"
+                className="mr-5 ml-5 mt-6 sm:mt-0 text-white hover:text-gray-900 no-underline"
               >
                 🧔 Bio
               </a>
               <a
                 href="/events"
-                className="mr-5 ml-5 text-white hover:text-gray-900 no-underline"
+                className="mr-5 ml-5 mt-6 sm:mt-0 text-white hover:text-gray-900 no-underline"
               >
                 🥑 Speaking Events
               </a>
