@@ -36,19 +36,6 @@ export default function HeaderLayout() {
           </div>
         </header>
       </div>
-      <style jsx>
-        {`
-          a {
-            text-decoration: none;
-            cursor: pointer;
-          }
-          @media only screen and (max-width: 768px) {
-            #name {
-              display: none;
-            }
-          }
-        `}
-      </style>
     </>
   );
 }
