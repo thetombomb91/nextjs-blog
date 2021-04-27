@@ -8,7 +8,7 @@ categories:
   - "programming"
 ---
 
-![Jasmine test logo](/images/ForPosts/jasmine-1024x1020.png)
+![Jasmine test logo](/images/ForPosts/jasmine.png)
 
 Today I ran into a new problem in my Angular application. My Jasmine unit tests were running FOREVER. Every time the tests finished they just kept running again and again. I reached 1505 out of 490 unit tests run. I was very confused! location.reload was the problem!
 
