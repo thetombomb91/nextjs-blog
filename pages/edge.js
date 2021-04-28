@@ -19,12 +19,12 @@ async function GetBlogPostTitle() {
 export async function getStaticProps() {
     // const blogTitle = await GetBlogPostTitle();
 
-    // return {
-    //     props: {
-    //         blogTitle: blogTitle,
-    //     },
-    //     revalidate: 5
-    // };
+    return {
+        props: {
+            blogTitle: "Title here",
+        },
+        revalidate: 5
+    };
 }
 
 export default function Edge(props) {
