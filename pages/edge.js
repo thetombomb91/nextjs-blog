@@ -17,11 +17,11 @@ async function GetBlogPostTitle() {
 }
 
 export async function getStaticProps() {
-    // const blogTitle = await GetBlogPostTitle();
+    const blogTitle = await GetBlogPostTitle();
 
     return {
         props: {
-            blogTitle: "Title here",
+            blogTitle: blogTitle,
         },
         revalidate: 5
     };
@@ -30,8 +30,7 @@ export async function getStaticProps() {
 export default function Edge(props) {
     return (
         <div className="flex h-screen justify-center items-center">
-            {/* <p className="text-3xl">{props.blogTitle.Title}</p> */}
-            TEST
+            <p className="text-3xl">{props.blogTitle.Title}</p>
         </div>
     );
 }
