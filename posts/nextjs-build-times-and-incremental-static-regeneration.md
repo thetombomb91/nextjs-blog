@@ -47,7 +47,7 @@ export async function getStaticProps() {
 }
 ```
 
-ISR is incredibly helpful when working with a Content Management System (CMS). If we have content being pulled in via getStaticProps(), when we can change content in the CMS, and it will automatically regenerate. Without even doing a build, we know that the 2nd person to visit the page will see the changes from our CMS. 
+ISR is incredibly helpful when working with a Content Management System (CMS). If we have content being pulled in via getStaticProps(), when we can change content in the CMS, and it will automatically regenerate. Without even doing a build, we know that ISR will regenerate our page once someone visits it.
 
 ## Considerations when using ISR
 
