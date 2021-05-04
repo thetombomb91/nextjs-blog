@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function TechBlogs(props) {
     return (
-        <section className="bg-white rounded-xl	 shadow-xl p-6 flex flex-wrap">
+        <section className="bg-white rounded-xl	 shadow-xl p-6 flex flex-wrap justify-around">
             <div className="text-center mb-10">
                 <h1 className="sm:text-3xl text-xl font-medium title-font text-gray-900 mb-4">
                     📝Cool Blog Posts:
