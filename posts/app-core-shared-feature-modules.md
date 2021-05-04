@@ -52,3 +52,5 @@ One of the main reasons to break your features up into different modules is lazy
 ![Laptop Code](/images/ForPosts/laptopWithCode.jpg)
 
 Now you have a better understanding of how to separate your different modules in Angular. For more on modules check out the [Angular Introduction to Modules](https://angular.io/guide/architecture-modules).
+
+For more frontend developer content, check me out on Twitter [@ThomasJDesmond](https://twitter.com/ThomasJDesmond).

@@ -43,3 +43,5 @@ Angular Language Service is another great Angular extension. This one is develop
 ![](/images/ForPosts/spellCheck-300x300.png)
 
 This is another extension that is helpful for any development done in VS Code. It checks the spelling of your code even for your camelCase variables. It is great at finding common spelling errors that we make in our code. This can be extremely helpful in finding those nasty spelling error bugs. Definitely add this extension to your VS Code if you have not already.
+
+For more frontend developer content, check me out on Twitter [@ThomasJDesmond](https://twitter.com/ThomasJDesmond).
