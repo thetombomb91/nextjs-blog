@@ -4,7 +4,6 @@ description: "How do we deal with having no integer type in Typescript?"
 date: "2020-10-08"
 categories:
     - "Typescript"
-    - "topPost"
 ---
 
 Typescript has a few basic types. One of which is the [Number](https://www.typescriptlang.org/docs/handbook/basic-types.html#number) type. Number is meant to represent any and all numbers. What this means is the Number type is a floating-point value.
