@@ -25,6 +25,9 @@ const labelColor = (type) => {
       case 'Meetup':
         color = 'bg-red-200'
         break
+      case 'Video':
+        color = 'bg-purple-200'
+        break
       default:
         color = 'bg-gray-400'
     }
