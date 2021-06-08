@@ -1,6 +1,6 @@
 ---
-title: "Converting my blog from Wordpress to Next.js"
-description: "A look at the motivations to convert thetombomb.com from Wordpress to Next.js. And what I learned along the way."
+title: "Converting my blog from WordPress to Next.js"
+description: "A look at the motivations to convert thetombomb.com from WordPress to Next.js. And what I learned along the way."
 date: "2021-06-08"
 categories: 
   - "nextjs"
@@ -10,35 +10,35 @@ socialImage: "https://thetombomb-public.s3.amazonaws.com/WordpressToNextjs.png"
 ---
 ![Blog banner image with text Javascript GraphQL Clients](/images/ForPosts/WordpressToNextjs.png)
 
-Early 2021, I took on fully revamping this personal blog of mine, [thetombomb.com](http://thetombomb.com). I wanted to move away from Wordpress and create a statically generated site. I chose Next.js to be my static site generator. I could not be happier with the results. 
+Early 2021, I took on fully revamping this personal blog of mine, [thetombomb.com](http://thetombomb.com). I wanted to move away from WordPress and create a statically generated site. I chose Next.js to be my static site generator. I could not be happier with the results. 
 
-*This post is less of a how to guide and more of an explanation of the process I took to move my personal blog (the site you are on now) from Wordpress to a fully static Next.js application.* 
+*This post is less of a how to guide and more of an explanation of the process I took to move my personal blog (the site you are on now) from WordPress to a fully static Next.js application.* 
 
 ## The motivation behind switching to Next.js
 
-What motivated me to move away from Wordpress and over to Next.js? **Speed was the number one factor**. I was getting poor Lighthouse and PageRank scores, especially in the speed category. I thought maybe I could pay for better Wordpress hosting, but with free static hosting available that seemed like a waste.
+What motivated me to move away from WordPress and over to Next.js? **Speed was the number one factor**. I was getting poor Lighthouse and PageRank scores, especially in the speed category. I thought maybe I could pay for better WordPress hosting, but with free static hosting available that seemed like a waste.
 
-Here are the PageRank scores I was seeing on my Wordpress site. Look at that low performance score and long load times. 
+Here are the PageRank scores I was seeing on my WordPress site. Look at that low performance score and long load times. 
 
-![Light house PageRank scores from blog as a Wordpress site](/images/ForPosts/oldLighthouseScores.png)
+![Light house PageRank scores from blog as a WordPress site](/images/ForPosts/oldLighthouseScores.png)
 
-I had recently learned about static site generation (SSG) and many of my favorite developers had their blogs written using ssg. I settled on Next.js because of its ease of entry and potential to do server side rendering and SSG. Not to mention Vercel has a free fast hosting tier for hobby sites so it was almost a no brainer that it was time to switch off Wordpress. 
+I had recently learned about static site generation (SSG) and many of my favorite developers had their blogs written using ssg. I settled on Next.js because of its ease of entry and potential to do server side rendering and SSG. Not to mention Vercel has a free fast hosting tier for hobby sites so it was almost a no brainer that it was time to switch off WordPress. 
 
 Now let's look at what it took to move over.
 
-## Next.js vs Wordpress getting up and running
+## Next.js vs WordPress getting up and running
 
-I do not remember everything it took to get Wordpress running in 2016 but I can tell you it was A LOT faster to first live publish compared to Next.js. With Wordpress I signed up for an account, chose some theming and colors, jumped into the WYSIWYG blog post editor, pressed publish and was live to the world. 
+I do not remember everything it took to get WordPress running in 2016 but I can tell you it was A LOT faster to first live publish compared to Next.js. With WordPress I signed up for an account, chose some theming and colors, jumped into the WYSIWYG blog post editor, pressed publish and was live to the world. 
 
-Next.js wasn't too difficult, especially with the great tutorial available for free on Vercel, but it definitely was not as simple as Wordpress. The conversion from Wordpress to Next.js took about a month. Granted with Next.js I did have a working site on the first day. But theming/html/layout took a LONG time. Handling code snippets, adding analytics, page navigation, all things taken for granted in Wordpress I had to set up myself in Next.js. 
+Next.js wasn't too difficult, especially with the great tutorial available for free on Vercel, but it definitely was not as simple as WordPress. The conversion from WordPress to Next.js took about a month. Granted with Next.js I did have a working site on the first day. But theming/html/layout took a LONG time. Handling code snippets, adding analytics, page navigation, all things taken for granted in WordPress I had to set up myself in Next.js. 
 
-Next.js had infinitely more customization but this also means more set up. As a developer the customization was great. But for someone who just wants a blog or site up and running. Wordpress may easily meet your minimal viable product (MVP). As Wordpress did for me for years.
+Next.js had infinitely more customization but this also means more set up. As a developer the customization was great. But for someone who just wants a blog or site up and running. Wordpress may easily meet your minimal viable product (MVP). As WordPress did for me for years.
 
 ## Why Next.js is awesome
 
 Next.js is also great because it is built on top of the React frontend framework. It has the engine of React powering it while adding tons of out of the box features on top of it. Next.js has Typescript support, image optimization, API routing, I18n, and more built into it. Next.js is the sports car built with React as its engine. The out of the box features were a major reason for choosing Next.js
 
-So after all that work converting from Wordpress to Next.js. Did I get the results I wanted? Did I see faster performance, was it more user friendly? Yes!
+So after all that work converting from WordPress to Next.js. Did I get the results I wanted? Did I see faster performance, was it more user friendly? Yes!
 
 With Next.js, my lighthouse scores increased immensely. Check them out!
 
@@ -46,7 +46,7 @@ With Next.js, my lighthouse scores increased immensely. Check them out!
 
 ![Light house load times with new Next.js implementation](/images/ForPosts/lighthousetimes.png)
 
-So how does Next.js do this? What makes Next.js so different from Wordpress that now all my Lighthouse scores are in the green and some even at 100? 
+So how does Next.js do this? What makes Next.js so different from WordPress that now all my Lighthouse scores are in the green and some even at 100? 
 
 Jamstack and Static Site Generation! That's really what makes Next.js so cool. Next.js is built with Jamstack in mind with static site generation (SSG).
 
@@ -61,13 +61,13 @@ Let's jump into Jamstack. You can find a lot of information on [jamstack.org](ht
 
 How does it get all these significant benefits? It really comes down to Static Site Generation. **By using a Jamstack architecture we allow ourselves to statically generate the content for our website at build time.** The statically generated content is directly served to our visitors and customers. The content is hosted on CDN or Content Delivery Network and directly beamed down to our users when they hit our site. 
 
-No more server to deal with. No more handling a user's request and generating the content at request time. That takes time. Precious time we don't have. The leap in performance scores can be explained fully by moving from Wordpress, where each request is handled when it comes in, to now SSG where content is built ahead of time and delivered to visitors a CDN.
+No more server to deal with. No more handling a user's request and generating the content at request time. That takes time. Precious time we don't have. The leap in performance scores can be explained fully by moving from WordPress, where each request is handled when it comes in, to now SSG where content is built ahead of time and delivered to visitors a CDN.
 
 ## So why isn't everyone using Jamstack?
 
 If the Jamstack architecture can provide better performance, higher security, scalability, and a better developer experience, why isn't everyone using it? 
 
-Static site generation or generating all our HTML content at build time sounds very nice. But it isn't all green grass and blue skies. It has downsides of its own. Two major drawbacks of SSG are build times and dynamic content. And when coming from Wordpress to Next.js or really any frontend static site generator you leave a lot of the Wordpress comforts behind. 
+Static site generation or generating all our HTML content at build time sounds very nice. But it isn't all green grass and blue skies. It has downsides of its own. Two major drawbacks of SSG are build times and dynamic content. And when coming from WordPress to Next.js or really any frontend static site generator you leave a lot of the WordPress comforts behind. 
 
 ### Build Times
 
@@ -79,7 +79,7 @@ I've written a few blog posts about optimizing builds where you do not need to d
 
 [Next.js: Build Times & Incremental Static Regeneration to the Rescue](https://thetombomb.com/posts/nextjs-build-times-and-incremental-static-regeneration)
 
-This was a big change coming from Wordpress where I could publish a post and it would be live instantly. Granted my small blog takes just over a minute to build and publish, but this is a 50 page blog. Generating thousands of product pages for an e-commerce site could take quite a while. 
+This was a big change coming from WordPress where I could publish a post and it would be live instantly. Granted my small blog takes just over a minute to build and publish, but this is a 50 page blog. Generating thousands of product pages for an e-commerce site could take quite a while. 
 
 But those benefits I mentioned above could make it worth it. Taking the extra time building your pages ahead of time gives you that near instant delivery when a user visits your site. It's all about tradeoffs. 
 
@@ -99,11 +99,11 @@ Things that took me longer to set up were Google analytics tracking for every pa
 
 Another feature that took much longer than I ever thought it should was handling code snippets on my blog posts. I wanted beautiful code snippets: syntax highlighting, line number, copyable, and more. Setting up the 3rd party packages and handling code within markdown was harder than I thought. I wrote a blog post for that experience as well: [Adding code snippets to static markdown in Next.js using react-syntax-highlighter](https://thetombomb.com/posts/adding-code-snippets-to-static-markdown-in-Next%20js).
 
-These types of features and many more are one click install plugins in Wordpress. Sometimes the ability to customize everything means you will have a lot more work ahead of you.
+These types of features and many more are one click install plugins in WordPress. Sometimes the ability to customize everything means you will have a lot more work ahead of you.
 
 ## Wrapping Up
 
-My site has been 100% Next.js now for a couple months and glad I am here. I have no desire to go back to Wordpress It's a bit more work to update my packages on my own, if I want special features I need to seek out and research libraries myself. But I am a developer those are find things I enjoy doing.
+My site has been 100% Next.js now for a couple months and glad I am here. I have no desire to go back to WordPress It's a bit more work to update my packages on my own, if I want special features I need to seek out and research libraries myself. But I am a developer those are find things I enjoy doing.
 
 The benefits of a blazing a fast, reliable site definitely make it worth it. And learning about Jamstack and SGG along the way was fun as well. I have even seen my site starting to be ranked more highly on Google since being on Next.js, I attribute that fully to the increase in speed and page rendering made possible by Next.js.
 
