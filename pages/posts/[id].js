@@ -42,7 +42,7 @@ export default function Post({ postData }) {
         />
       </Head>
 
-      <article className="bg-white w-screen rounded-xl p-4 sm:p-10 prose lg:prose-lg 2xl:prose-xl shadow-xl">
+      <article className="bg-white w-screen rounded-xl p-4 sm:p-10 prose lg:prose-lg shadow-xl">
         <h1 className="text-xl">{postData.title}</h1>
         <div className="text-gray-400">
           <Date dateString={postData.date} />
