@@ -10,7 +10,7 @@ categories:
 
 **Not tested (yet) with react-markdown 6.0 release, working with react-markdown 5.0.3**
 
-I recently fully converted my Wordpress blog completely to static generated Next.js and it came with some difficulties. One problem was that git gists would not easily work in my static markdown files. I needed way to share formatted pieces of code with my users. 
+I recently fully converted my WordPress blog completely to static generated Next.js and it came with some difficulties. One problem was that git gists would not easily work in my static markdown files. I needed way to share formatted pieces of code with my users. 
 
 So I used react-syntax-highlighter and you should too for highlighting code snippets in your static markdown files in Next.js. You'll see I am using it for all the code snippets in this post. 
 

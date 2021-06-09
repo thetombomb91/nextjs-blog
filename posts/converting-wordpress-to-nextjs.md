@@ -4,7 +4,7 @@ description: "A look at the motivations to convert thetombomb.com from WordPress
 date: "2021-06-08"
 categories: 
   - "nextjs"
-  - "wordpress"
+  - "WordPress"
   - "topPost"
 socialImage: "https://thetombomb-public.s3.amazonaws.com/WordpressToNextjs.png"
 ---
@@ -22,7 +22,8 @@ Here are the PageRank scores I was seeing on my WordPress site. Look at that low
 
 ![Light house PageRank scores from blog as a WordPress site](/images/ForPosts/oldLighthouseScores.png)
 
-I had recently learned about static site generation (SSG) and many of my favorite developers had their blogs written using ssg. I settled on Next.js because of its ease of entry and potential to do server side rendering and SSG. Not to mention Vercel has a free fast hosting tier for hobby sites so it was almost a no brainer that it was time to switch off WordPress. 
+
+I had recently learned about static site generation (SSG) and many of my favorite developers had their blogs written using ssg. I settled on Next.js because of its ease of entry and potential to do server side rendering and SSG. Not to mention Vercel, the creators of Next.js, have a free fast hosting tier for hobby sites so it was almost a no brainer that it was time to switch off WordPress. 
 
 Now let's look at what it took to move over.
 
@@ -30,9 +31,13 @@ Now let's look at what it took to move over.
 
 I do not remember everything it took to get WordPress running in 2016 but I can tell you it was A LOT faster to first live publish compared to Next.js. With WordPress I signed up for an account, chose some theming and colors, jumped into the WYSIWYG blog post editor, pressed publish and was live to the world. 
 
-Next.js wasn't too difficult, especially with the great tutorial available for free on Vercel, but it definitely was not as simple as WordPress. The conversion from WordPress to Next.js took about a month. Granted with Next.js I did have a working site on the first day. But theming/html/layout took a LONG time. Handling code snippets, adding analytics, page navigation, all things taken for granted in WordPress I had to set up myself in Next.js. 
+Next.js wasn't too difficult, especially with the great tutorial available for free on Vercel, but it definitely was not as simple as WordPress. The conversion from WordPress to Next.js took about a month. Granted, with Next.js I had a working site on the first day. But theming/html/layout took a LONG time. Handling code snippets, adding analytics, page navigation, all things taken for granted in WordPress, I had to set up myself in Next.js. 
 
-Next.js had infinitely more customization but this also means more set up. As a developer the customization was great. But for someone who just wants a blog or site up and running. Wordpress may easily meet your minimal viable product (MVP). As WordPress did for me for years.
+Converting to Next.js was quite an undertaking. One big bonus about choosing Vercel as my hosting option is that I could push my code and have it deployed to a production instance but with a Vercel generated URL. This allowed me to keep my WordPress instance live while also having a production view of my Next.js conversion progress. This means an easy switch over in the end.
+
+Vercel also has a nifty branching deployment feature. If you push a branch, Vercel will detect the branch and build a live site based on that branch. This has many uses, but I found it most helpful in sharing a branch with someone to get feedback before moving it into main.
+
+Next.js had infinitely more customization, but this also means more set up. As a developer the customization was great. But for someone who just wants a blog or site up and running. WordPress may easily meet your minimal viable product (MVP). As WordPress did for me for years.
 
 ## Why Next.js is awesome
 
@@ -57,11 +62,30 @@ Let's jump into Jamstack. You can find a lot of information on [jamstack.org](ht
 - Better Performance
 - Higher Security
 - Scalability
-- Better developer experience
 
-How does it get all these significant benefits? It really comes down to Static Site Generation. **By using a Jamstack architecture we allow ourselves to statically generate the content for our website at build time.** The statically generated content is directly served to our visitors and customers. The content is hosted on CDN or Content Delivery Network and directly beamed down to our users when they hit our site. 
+These three benefits are not insignificant. Who wouldn't want all three for their applications. Let's look at how all three are possible with Jamstack.
 
-No more server to deal with. No more handling a user's request and generating the content at request time. That takes time. Precious time we don't have. The leap in performance scores can be explained fully by moving from WordPress, where each request is handled when it comes in, to now SSG where content is built ahead of time and delivered to visitors a CDN.
+### Better Performance
+
+The better performance really comes down to Static Site Generation. **By using a Jamstack architecture we allow ourselves to statically generate the content for our website at build time.** That pre generated content can be beamed directly to our users. 
+
+In traditional web development we generate the page with each request. If our page is going to be same for every user why not genrate it once and send that static content out to our users. That's how we get the big jump in performance with Jamstack.
+
+### Higher Security
+
+I cannot tell you Jamstack solves ALL security issues. But it does a good job of simplifying security with the API layer in Jamstack. In the Jamstack architecture, we are using API's to gather data and pull in content during build time. This means secret keys, authentication, accounts can all live on the build server and don't need to be exposed to the client at all.
+
+Another benefit is fewer network calls. We make the call once on our build server and we have everything we need. We do not push that responsibility down to the client. 
+
+Jamstack doesn't remove all security risks but it's API driven architecture can bring on more simplicity.
+
+### Scalability
+
+Remember those static assets I've mentioned so many times now? Well, because those assets are stored directly on a CDN without a server involved scaling up is incredibly easy. Spread your assets on a world-wide network of CDN's and you are set. No upgrading beefy servers to handle more requests, the CDN's have you covered. 
+
+So handling a few requests to a thousand requests isn't difficult for a Jamstack architected site.
+
+With no more server to deal with, having all out content statically generated, and using API's to populate our content we get to see those benefits of performance, security, and scalability.
 
 ## So why isn't everyone using Jamstack?
 
@@ -91,7 +115,7 @@ This took a little for me to wrap my head around. It helped to think about a Twi
 
 Pulling in CMS data at build time works well but dynamic data such as weather or a Twitter feed would still need to be done client side. Grabbing data client side is possible in Next.js, but to get the very best out of Jamstack we want to pre-render as much as possible.
 
-### Missing Wordpress comforts
+### Missing WordPress comforts
 
 Because I am a developer and enjoy the freedom to do whatever I want, I like Next.js. But that can also be overwhelming. Something that used to trivial now takes you much longer to do than once thought.
 
