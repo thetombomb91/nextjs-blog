@@ -69,6 +69,8 @@ These three benefits are not insignificant. Who wouldn't want all three for thei
 
 The better performance really comes down to Static Site Generation. **By using a Jamstack architecture we allow ourselves to statically generate the content for our website at build time.** That pre generated content can be beamed directly to our users. 
 
+![Gif of a beam of light leaving Earth](/images/ForPosts/beam.gif)
+
 In traditional web development we generate the page with each request. If our page is going to be same for every user why not genrate it once and send that static content out to our users. That's how we get the big jump in performance with Jamstack.
 
 ### Higher Security
