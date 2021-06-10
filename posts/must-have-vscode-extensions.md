@@ -5,7 +5,6 @@ date: "2020-07-27"
 categories: 
   - "angular"
   - "programming"
-  - "topPost"
 ---
 
 Let's take a look at the VS Code extension that I use regularly when developing Angular code. I like my extension to make me a more productive developer. Many of these could be helpful outside of Angular development but these are some that I like.

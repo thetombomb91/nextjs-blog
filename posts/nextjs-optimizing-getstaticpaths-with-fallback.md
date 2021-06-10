@@ -4,7 +4,6 @@ description: "The fallback property of getStaticPaths() has three values: false,
 date: "2021-05-04"
 categories: 
   - "nextjs"
-  - "topPost"
 socialImage: "https://thetombomb-public.s3.amazonaws.com/nextjsandfallback.png"
 ---
 ![Blog banner image with text Next.js incremental static regeneration](/images/ForPosts/nextjsandfallback.png)

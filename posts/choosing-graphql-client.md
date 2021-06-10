@@ -5,7 +5,6 @@ date: "2021-03-25"
 categories: 
   - "graphql"
   - "edge"
-  - "topPost"
 socialImage: "https://thetombomb-public.s3.amazonaws.com/javascriptGraphQLClients.png"
 ---
 

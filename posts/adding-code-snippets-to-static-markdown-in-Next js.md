@@ -5,7 +5,6 @@ date: "2021-02-20"
 categories: 
   - "next.js"
   - "programming"
-  - "topPost"
 ---
 
 **Not tested (yet) with react-markdown 6.0 release, working with react-markdown 5.0.3**

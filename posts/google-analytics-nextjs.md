@@ -2,8 +2,7 @@
 title: "Setting up Google Analytics in static Next.js site, handle all page views"
 description: "This tutorial covers how to add Google Analytics to your static Next.js website and track all page views and navigation."
 date: "2021-02-24"
-categories: 
-  - "topPost"
+categories:
   - "Next.js"
 ---
 
