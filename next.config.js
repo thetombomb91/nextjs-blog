@@ -8,9 +8,6 @@ module.exports = withBundleAnalyzer({})
 
 module.exports = {
   target: 'serverless',
-  future: {
-    webpack5: true,
-  },
 
   async redirects() {
     return [
