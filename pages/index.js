@@ -34,7 +34,7 @@ export default function Home({ topPosts, hobbyPosts }) {
                   </h2>
                   <br />
                   <p className="text-white mb-10">
-                    Here is where I share my tech, hobbies, and thoughts. You'll
+                    Here is where I share my tech, hobbies, and thoughts. You&apos;ll
                     find me sharing a lot of frontend tech fun and I encourage
                     you to check it all out.
                   </p>
