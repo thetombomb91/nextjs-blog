@@ -4,6 +4,8 @@ import { getPostsByCategory as getAllPostsByCategory } from "../lib/posts";
 import HobbyPosts from '../components/hobbyPosts';
 import Courses from '../components/courses';
 import TechBlogs from '../components/techBlogs';
+import Image from 'next/image';
+import profilePic from '../public/profile2.png';
 
 export async function getStaticProps() {
   const topPosts = getAllPostsByCategory("topPost");
@@ -42,13 +44,9 @@ export default function Home({ topPosts, hobbyPosts }) {
                 <div className="mt-10 ml-20 lg:mt-0 " id="info-img">
                   <div className="flex items-center justify-center lg:justify-end">
                     <div className="max-w-lg">
-                      <img
-                        className="w-full h-54 object-cover object-center rounded-xl shadow "
-                        style={{
-                          borderRadius: "50%",
-                          width: "100%",
-                        }}
-                        src="/profile2.png"
+                      <Image
+                        className="w-full h-64 object-cover object-center rounded-full shadow-md border-2 border-white"
+                        src={profilePic}
                         alt="Picture of Thomas Desmond"
                         id="set-image"
                       />
@@ -58,10 +56,10 @@ export default function Home({ topPosts, hobbyPosts }) {
               </div>
             </div>
           </section>
-          
+
           <TechBlogs posts={topPosts} />
           <Courses />
-          <HobbyPosts hobbyPosts={hobbyPosts}/>
+          <HobbyPosts hobbyPosts={hobbyPosts} />
         </div>
       </HomeLayout>
     </>

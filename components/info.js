@@ -1,4 +1,5 @@
 import React from "react";
+import Image from 'next/image';
 
 const Info = () => {
   return (
@@ -12,7 +13,7 @@ const Info = () => {
               </h2>
 
               <p className="text-gray dark:text-gray-400 lg:max-w-md mt-4 ">
-                Here is where I share my tech, hobbies, and thoughts. You'll
+                Here is where I share my tech, hobbies, and thoughts. You&apos;ll
                 find me sharing a lot of frontend tech fun and I encourage you
                 to check it all out.
               </p>
@@ -21,15 +22,10 @@ const Info = () => {
             <div className="mt-8 lg:mt-0 lg:w-1/2" id="info-img">
               <div className="flex items-center justify-center lg:justify-end">
                 <div className="max-w-lg">
-                  <img
-                    className="w-full h-64 object-cover object-center rounded-xl shadow "
-                    style={{
-                      border: "2px solid white",
-                      borderRadius: "50%",
-                      width: "100%",
-                    }}
-                    src="/profile2.png"
-                    alt=""
+                  <Image
+                    className="w-full h-64 object-cover object-center rounded-full shadow-md border-2 border-white"
+                    src={profilePic}
+                    alt="Picture of Thomas Desmond"
                     id="set-image"
                   />
                 </div>
