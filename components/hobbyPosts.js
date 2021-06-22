@@ -23,7 +23,9 @@ export default function HobbyPosts(props) {
                                 height={30}
                             />
                             <Link href={`/posts/${id}`}>
-                                <a className="text-white font-semibold text-lg hover:text-blue-300 ml-2">{title}</a>
+                                <a className="text-white font-semibold text-lg hover:text-blue-300 ml-2">
+                                    {title}
+                                </a>
                             </Link>
                         </div>
                         <br />
