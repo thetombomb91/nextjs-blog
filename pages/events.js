@@ -1,7 +1,8 @@
 import Head from "next/head";
 import HomeLayout, { siteTitle } from "../components/homeLayout";
 import Link from "next/link";
-import { getAllEvents} from "../lib/events";
+import Date from "../components/date";
+import { getAllEvents } from "../lib/events";
 
 export async function getStaticProps() {
   const allEvents = getAllEvents();
@@ -14,25 +15,25 @@ export async function getStaticProps() {
 }
 
 const labelColor = (type) => {
-    let color
-    switch (type) {
-      case 'Conference':
-        color = 'bg-blue-100'
-        break
-      case 'Podcast':
-        color = 'bg-green-200'
-        break
-      case 'Meetup':
-        color = 'bg-red-200'
-        break
-      case 'Video':
-        color = 'bg-purple-200'
-        break
-      default:
-        color = 'bg-gray-400'
-    }
-    return color
+  let color
+  switch (type) {
+    case 'Conference':
+      color = 'bg-blue-100'
+      break
+    case 'Podcast':
+      color = 'bg-green-200'
+      break
+    case 'Meetup':
+      color = 'bg-red-200'
+      break
+    case 'Video':
+      color = 'bg-purple-200'
+      break
+    default:
+      color = 'bg-gray-400'
   }
+  return color
+}
 
 
 export default function Events({ allEvents }) {
@@ -61,15 +62,15 @@ export default function Events({ allEvents }) {
             <ul className="rounded-xl pb-10 mb-10 bg-white w-full shadow-xl">
               {allEvents?.map(({ id, talkTitle, talkLocation, type, background, talkLink, date }) => (
                 <li className="pl-10 pt-10 pr-10" key={id}>
-                <label>{date}</label>
-                <div className="flex">
-                  <Link href={talkLink}>
-                    <a className="text-black font-semibold underline hover:text-gray-600">{talkTitle}</a>
-                  </Link>
-                  <div>
-                  <label className={`${labelColor(type)} ml-2 pl-1 pr-1 rounded`}>{type}</label> 
+                  <Date dateString={date} />
+                  <div className="flex">
+                    <Link href={talkLink}>
+                      <a className="text-black font-semibold underline hover:text-gray-600">{talkTitle}</a>
+                    </Link>
+                    <div>
+                      <label className={`${labelColor(type)} ml-2 pl-1 pr-1 rounded`}>{type}</label>
+                    </div>
                   </div>
-                </div>
                   <p className="italic">{talkLocation}</p>
                 </li>
               ))}
