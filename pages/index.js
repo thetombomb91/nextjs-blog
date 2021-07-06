@@ -6,6 +6,7 @@ import Courses from '../components/courses';
 import TechBlogs from '../components/techBlogs';
 import Image from 'next/image';
 import profilePic from '../public/profile2.png';
+import FooterLayout from "../components/footerLayout";
 
 export async function getStaticProps() {
   const topPosts = getAllPostsByCategory("topPost");
@@ -62,6 +63,7 @@ export default function Home({ topPosts, hobbyPosts }) {
           <HobbyPosts hobbyPosts={hobbyPosts} />
         </div>
       </HomeLayout>
+      <FooterLayout/>
     </>
   );
 }
