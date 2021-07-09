@@ -3,7 +3,7 @@ import { getAllPostIds, getPostData } from "../../lib/posts";
 import Head from "next/head";
 import Date from "../../components/date";
 import ReactMarkdown from "react-markdown";
-import CodeBlock from "../../components/codeblock"
+import CodeBlock from "../../components/codeblock";
 
 export async function getStaticProps({ params }) {
   const postData = await getPostData(params.id);
@@ -47,7 +47,7 @@ export default function Post({ postData }) {
           <Date dateString={postData.date} />
         </div>
 
-        <ReactMarkdown source={postData.markdown} renderers={{ code: CodeBlock }} />
+        <ReactMarkdown children={postData.markdown} components={CodeBlock}  />
       </article>
     </PostLayout>
   );
