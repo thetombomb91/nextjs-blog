@@ -7,7 +7,7 @@ categories:
   - "programming"
 ---
 
-**Not tested (yet) with react-markdown 6.0 release, working with react-markdown 5.0.3**
+**IMPORTANT NOTE: The below code and examples have tested and work with react-markdown 6.0.2, these examples do not work with version 5 and below**
 
 I recently fully converted my WordPress blog completely to static generated Next.js and it came with some difficulties. One problem was that git gists would not easily work in my static markdown files. I needed way to share formatted pieces of code with my users. 
 
@@ -19,7 +19,7 @@ So I used react-syntax-highlighter and you should too for highlighting code snip
 
 In order to allow for code highlighting, we want to be using the [React Markdown](https://github.com/remarkjs/react-markdown) package to render our markdown. The reason for this is that we can set the *renderers* property to use our custom code highlighting component. 
 
-Install the React Markdown package and place the ReactMarkdown tag where you want your markdown rendered. **The "source" property should be set to the raw markdown for your posts**.
+Install the React Markdown package and place the ReactMarkdown tag where you want your markdown rendered. **The "children" property should be set to the raw markdown for your posts**.
 
 ```jsx
 // Command for installing react-markdown
@@ -27,7 +27,7 @@ npm install react-markdown
 ```
 
 ```jsx
-<ReactMarkdown source={postData.markdown} />
+<ReactMarkdown children={postData.markdown} />
 ```
 
 If you created your Next.js using the starter tutorial provided by Next.js you may be using remark to convert your markdown to HTML. We don't want that and want to use ReactMarkdown like above. If you have the getPostData(id) method, you will want to refactor it to return the markdown data. You can remove the other data returned if you do not need it.
@@ -78,19 +78,24 @@ Create a file name codeblock.js in your components folder and add the following 
 // components/codeblock.js
 import React from "react"
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter"
-import { tomorrow } from "react-syntax-highlighter/dist/cjs/styles/prism"
+import {dracula} from 'react-syntax-highlighter/dist/cjs/styles/prism';
 
-const CodeBlock = ({ language, value }) => {
-  return (
-        <SyntaxHighlighter
-          language={language}
-          style={tomorrow}
-          wrapLines={true}
-          showLineNumbers={true}
-        >
-          {value}
-        </SyntaxHighlighter>
-  )
+const CodeBlock = {
+  code({node, inline, className, children, ...props}) {
+    const match = /language-(\w+)/.exec(className || '')
+    return !inline && match ? (
+      <SyntaxHighlighter 
+        style={dracula} 
+        language={match[1]} 
+        PreTag="div" 
+        children={String(children).replace(/\n$/, '')} {...props} 
+      />
+    ) : (
+      <code className={className} {...props}>
+        {children}
+      </code>
+    )
+  }
 }
 
 export default CodeBlock
@@ -108,7 +113,7 @@ Now that we have our custom codeblock.js created we need to tell ReactMarkdown t
 // Don't forget to import codeblock at the top of your file
 import CodeBlock from "../../components/codeblock"
 
-<ReactMarkdown source={postData.markdown} renderers={{ code: CodeBlock }} />
+<ReactMarkdown children={postData.markdown} components={CodeBlock} />
 ```
 
 This tells ReactMarkdown that when it is going to render code from our markdown, it should use the CodeBlock component we created. 
