@@ -19,7 +19,7 @@ So I used react-syntax-highlighter and you should too for highlighting code snip
 
 In order to allow for code highlighting, we want to be using the [React Markdown](https://github.com/remarkjs/react-markdown) package to render our markdown. The reason for this is that we can set the *renderers* property to use our custom code highlighting component. 
 
-Install the React Markdown package and place the ReactMarkdown tag where you want your markdown rendered. **The "children" property should be set to the raw markdown for your posts**.
+Install the React Markdown package and place the ReactMarkdown tag where you want your markdown rendered. **The children of this tag should be the raw markdown for your posts**.
 
 ```jsx
 // Command for installing react-markdown
@@ -27,7 +27,7 @@ npm install react-markdown
 ```
 
 ```jsx
-<ReactMarkdown children={postData.markdown} />
+<ReactMarkdown>{postData.markdown}</ReactMarkdown>
 ```
 
 If you created your Next.js using the starter tutorial provided by Next.js you may be using remark to convert your markdown to HTML. We don't want that and want to use ReactMarkdown like above. If you have the getPostData(id) method, you will want to refactor it to return the markdown data. You can remove the other data returned if you do not need it.
@@ -84,12 +84,13 @@ const CodeBlock = {
   code({node, inline, className, children, ...props}) {
     const match = /language-(\w+)/.exec(className || '')
     return !inline && match ? (
-      <SyntaxHighlighter 
-        style={dracula} 
-        language={match[1]} 
-        PreTag="div" 
-        children={String(children).replace(/\n$/, '')} {...props} 
-      />
+    <SyntaxHighlighter 
+      style={dracula} 
+      language={match[1]} 
+      PreTag="div" {...props}>
+      {String(children).replace(/\n$/, '')}
+    </SyntaxHighlighter>
+
     ) : (
       <code className={className} {...props}>
         {children}
@@ -113,7 +114,7 @@ Now that we have our custom codeblock.js created we need to tell ReactMarkdown t
 // Don't forget to import codeblock at the top of your file
 import CodeBlock from "../../components/codeblock"
 
-<ReactMarkdown children={postData.markdown} components={CodeBlock} />
+<ReactMarkdown components={CodeBlock}>{postData.markdown}</ReactMarkdown>
 ```
 
 This tells ReactMarkdown that when it is going to render code from our markdown, it should use the CodeBlock component we created. 
