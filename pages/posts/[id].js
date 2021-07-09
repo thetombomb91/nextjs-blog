@@ -47,7 +47,7 @@ export default function Post({ postData }) {
           <Date dateString={postData.date} />
         </div>
 
-        <ReactMarkdown children={postData.markdown} components={CodeBlock}  />
+        <ReactMarkdown components={CodeBlock}>{postData.markdown}</ReactMarkdown>
       </article>
     </PostLayout>
   );
